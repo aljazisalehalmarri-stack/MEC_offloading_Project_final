@@ -1,0 +1,1338 @@
+
+REPRODUCIBLE DIVERSE TASK INPUTS
+--------------------------------------------------------------------------------------------------------------
+Configured tasks: 0
+Task properties : heterogeneous input profiles; execution mode decided automatically
+WORKLOAD CONFIG | task_count=20 | max_steps=202
+DATASET PATH VERIFIED: C:\Users\HUAWEI\Documents\Project_2026\MEC_offloading_Project\C100.json
+TASK SOURCE | task=1 | user=91 | cluster=10
+TASK SOURCE | task=2 | user=11 | cluster=2
+TASK SOURCE | task=3 | user=21 | cluster=3
+TASK SOURCE | task=4 | user=31 | cluster=4
+TASK SOURCE | task=5 | user=41 | cluster=5
+TASK SOURCE | task=6 | user=51 | cluster=6
+TASK SOURCE | task=7 | user=61 | cluster=7
+TASK SOURCE | task=8 | user=71 | cluster=8
+TASK SOURCE | task=9 | user=81 | cluster=9
+TASK SOURCE | task=10 | user=1 | cluster=1
+TASK SOURCE | task=11 | user=2 | cluster=1
+TASK SOURCE | task=12 | user=12 | cluster=2
+TASK SOURCE | task=13 | user=22 | cluster=3
+TASK SOURCE | task=14 | user=32 | cluster=4
+TASK SOURCE | task=15 | user=42 | cluster=5
+TASK SOURCE | task=16 | user=52 | cluster=6
+TASK SOURCE | task=17 | user=62 | cluster=7
+TASK SOURCE | task=18 | user=72 | cluster=8
+TASK SOURCE | task=19 | user=82 | cluster=9
+TASK SOURCE | task=20 | user=92 | cluster=10
+GLOBAL VALIDATION INPUT | Every Task-10 profile memory_required=18000 MB
+MOBILITY TRACE VERIFIED: 100 users; minimum length=204; simulation max steps=202
+==============================================================================================================
+EDGE SIMPY DATASET INITIALIZED SUCCESSFULLY
+==============================================================================================================
+
+Infrastructure Summary
+--------------------------------------------------------------------------------------------------------------
+EdgeServer objects : 110
+Users              : 100
+Base Stations      : 110
+Network Switches   : 110
+Network Links      : 210
+
+Users
+--------------------------------------------------------------------------------------------------------------
+User 1 | Base Station=101
+User 2 | Base Station=101
+User 3 | Base Station=101
+User 4 | Base Station=101
+User 5 | Base Station=101
+User 6 | Base Station=101
+User 7 | Base Station=101
+User 8 | Base Station=101
+User 9 | Base Station=101
+User 10 | Base Station=101
+User 11 | Base Station=102
+User 12 | Base Station=102
+User 13 | Base Station=102
+User 14 | Base Station=102
+User 15 | Base Station=102
+User 16 | Base Station=102
+User 17 | Base Station=102
+User 18 | Base Station=102
+User 19 | Base Station=102
+User 20 | Base Station=102
+User 21 | Base Station=103
+User 22 | Base Station=103
+User 23 | Base Station=103
+User 24 | Base Station=103
+User 25 | Base Station=103
+User 26 | Base Station=103
+User 27 | Base Station=103
+User 28 | Base Station=103
+User 29 | Base Station=103
+User 30 | Base Station=103
+User 31 | Base Station=104
+User 32 | Base Station=104
+User 33 | Base Station=104
+User 34 | Base Station=104
+User 35 | Base Station=104
+User 36 | Base Station=104
+User 37 | Base Station=104
+User 38 | Base Station=104
+User 39 | Base Station=104
+User 40 | Base Station=104
+User 41 | Base Station=105
+User 42 | Base Station=105
+User 43 | Base Station=105
+User 44 | Base Station=105
+User 45 | Base Station=105
+User 46 | Base Station=105
+User 47 | Base Station=105
+User 48 | Base Station=105
+User 49 | Base Station=105
+User 50 | Base Station=105
+User 51 | Base Station=106
+User 52 | Base Station=106
+User 53 | Base Station=106
+User 54 | Base Station=106
+User 55 | Base Station=106
+User 56 | Base Station=106
+User 57 | Base Station=106
+User 58 | Base Station=106
+User 59 | Base Station=106
+User 60 | Base Station=106
+User 61 | Base Station=107
+User 62 | Base Station=107
+User 63 | Base Station=107
+User 64 | Base Station=107
+User 65 | Base Station=107
+User 66 | Base Station=107
+User 67 | Base Station=107
+User 68 | Base Station=107
+User 69 | Base Station=107
+User 70 | Base Station=107
+User 71 | Base Station=108
+User 72 | Base Station=108
+User 73 | Base Station=108
+User 74 | Base Station=108
+User 75 | Base Station=108
+User 76 | Base Station=108
+User 77 | Base Station=108
+User 78 | Base Station=108
+User 79 | Base Station=108
+User 80 | Base Station=108
+User 81 | Base Station=109
+User 82 | Base Station=109
+User 83 | Base Station=109
+User 84 | Base Station=109
+User 85 | Base Station=109
+User 86 | Base Station=109
+User 87 | Base Station=109
+User 88 | Base Station=109
+User 89 | Base Station=109
+User 90 | Base Station=109
+User 91 | Base Station=110
+User 92 | Base Station=110
+User 93 | Base Station=110
+User 94 | Base Station=110
+User 95 | Base Station=110
+User 96 | Base Station=110
+User 97 | Base Station=110
+User 98 | Base Station=110
+User 99 | Base Station=110
+User 100 | Base Station=110
+
+SOURCE IOT DEVICE SPECIFICATIONS
+--------------------------------------------------------------------------------------------------------------
+IoT 1 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 2 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 3 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 4 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 5 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 6 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 7 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 8 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 9 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 10 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 11 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 12 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 13 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 14 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 15 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 16 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 17 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 18 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 19 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 20 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 21 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 22 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 23 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 24 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 25 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 26 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 27 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 28 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 29 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 30 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 31 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 32 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 33 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 34 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 35 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 36 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 37 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 38 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 39 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 40 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 41 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 42 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 43 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 44 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 45 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 46 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 47 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 48 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 49 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 50 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 51 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 52 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 53 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 54 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 55 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 56 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 57 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 58 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 59 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 60 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 61 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 62 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 63 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 64 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 65 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 66 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 67 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 68 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 69 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 70 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 71 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 72 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 73 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 74 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 75 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 76 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 77 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 78 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 79 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 80 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 81 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 82 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 83 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 84 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 85 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 86 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 87 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 88 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 89 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 90 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 91 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 92 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 93 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 94 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 95 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 96 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 97 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 98 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 99 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 100 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+Arrival seed=44 | Nominal rate=0.5/s | Arrival probability=0.393469/tick | At most one arrival per 1-second tick (Poisson approximation)
+
+User Network Mapping
+------------------------------------------------------------------------------------------------------------------------
+User 1 | Base Station=101 | Network Switch=101
+User 2 | Base Station=101 | Network Switch=101
+User 3 | Base Station=101 | Network Switch=101
+User 4 | Base Station=101 | Network Switch=101
+User 5 | Base Station=101 | Network Switch=101
+User 6 | Base Station=101 | Network Switch=101
+User 7 | Base Station=101 | Network Switch=101
+User 8 | Base Station=101 | Network Switch=101
+User 9 | Base Station=101 | Network Switch=101
+User 10 | Base Station=101 | Network Switch=101
+User 11 | Base Station=102 | Network Switch=102
+User 12 | Base Station=102 | Network Switch=102
+User 13 | Base Station=102 | Network Switch=102
+User 14 | Base Station=102 | Network Switch=102
+User 15 | Base Station=102 | Network Switch=102
+User 16 | Base Station=102 | Network Switch=102
+User 17 | Base Station=102 | Network Switch=102
+User 18 | Base Station=102 | Network Switch=102
+User 19 | Base Station=102 | Network Switch=102
+User 20 | Base Station=102 | Network Switch=102
+User 21 | Base Station=103 | Network Switch=103
+User 22 | Base Station=103 | Network Switch=103
+User 23 | Base Station=103 | Network Switch=103
+User 24 | Base Station=103 | Network Switch=103
+User 25 | Base Station=103 | Network Switch=103
+User 26 | Base Station=103 | Network Switch=103
+User 27 | Base Station=103 | Network Switch=103
+User 28 | Base Station=103 | Network Switch=103
+User 29 | Base Station=103 | Network Switch=103
+User 30 | Base Station=103 | Network Switch=103
+User 31 | Base Station=104 | Network Switch=104
+User 32 | Base Station=104 | Network Switch=104
+User 33 | Base Station=104 | Network Switch=104
+User 34 | Base Station=104 | Network Switch=104
+User 35 | Base Station=104 | Network Switch=104
+User 36 | Base Station=104 | Network Switch=104
+User 37 | Base Station=104 | Network Switch=104
+User 38 | Base Station=104 | Network Switch=104
+User 39 | Base Station=104 | Network Switch=104
+User 40 | Base Station=104 | Network Switch=104
+User 41 | Base Station=105 | Network Switch=105
+User 42 | Base Station=105 | Network Switch=105
+User 43 | Base Station=105 | Network Switch=105
+User 44 | Base Station=105 | Network Switch=105
+User 45 | Base Station=105 | Network Switch=105
+User 46 | Base Station=105 | Network Switch=105
+User 47 | Base Station=105 | Network Switch=105
+User 48 | Base Station=105 | Network Switch=105
+User 49 | Base Station=105 | Network Switch=105
+User 50 | Base Station=105 | Network Switch=105
+User 51 | Base Station=106 | Network Switch=106
+User 52 | Base Station=106 | Network Switch=106
+User 53 | Base Station=106 | Network Switch=106
+User 54 | Base Station=106 | Network Switch=106
+User 55 | Base Station=106 | Network Switch=106
+User 56 | Base Station=106 | Network Switch=106
+User 57 | Base Station=106 | Network Switch=106
+User 58 | Base Station=106 | Network Switch=106
+User 59 | Base Station=106 | Network Switch=106
+User 60 | Base Station=106 | Network Switch=106
+User 61 | Base Station=107 | Network Switch=107
+User 62 | Base Station=107 | Network Switch=107
+User 63 | Base Station=107 | Network Switch=107
+User 64 | Base Station=107 | Network Switch=107
+User 65 | Base Station=107 | Network Switch=107
+User 66 | Base Station=107 | Network Switch=107
+User 67 | Base Station=107 | Network Switch=107
+User 68 | Base Station=107 | Network Switch=107
+User 69 | Base Station=107 | Network Switch=107
+User 70 | Base Station=107 | Network Switch=107
+User 71 | Base Station=108 | Network Switch=108
+User 72 | Base Station=108 | Network Switch=108
+User 73 | Base Station=108 | Network Switch=108
+User 74 | Base Station=108 | Network Switch=108
+User 75 | Base Station=108 | Network Switch=108
+User 76 | Base Station=108 | Network Switch=108
+User 77 | Base Station=108 | Network Switch=108
+User 78 | Base Station=108 | Network Switch=108
+User 79 | Base Station=108 | Network Switch=108
+User 80 | Base Station=108 | Network Switch=108
+User 81 | Base Station=109 | Network Switch=109
+User 82 | Base Station=109 | Network Switch=109
+User 83 | Base Station=109 | Network Switch=109
+User 84 | Base Station=109 | Network Switch=109
+User 85 | Base Station=109 | Network Switch=109
+User 86 | Base Station=109 | Network Switch=109
+User 87 | Base Station=109 | Network Switch=109
+User 88 | Base Station=109 | Network Switch=109
+User 89 | Base Station=109 | Network Switch=109
+User 90 | Base Station=109 | Network Switch=109
+User 91 | Base Station=110 | Network Switch=110
+User 92 | Base Station=110 | Network Switch=110
+User 93 | Base Station=110 | Network Switch=110
+User 94 | Base Station=110 | Network Switch=110
+User 95 | Base Station=110 | Network Switch=110
+User 96 | Base Station=110 | Network Switch=110
+User 97 | Base Station=110 | Network Switch=110
+User 98 | Base Station=110 | Network Switch=110
+User 99 | Base Station=110 | Network Switch=110
+User 100 | Base Station=110 | Network Switch=110
+
+Network Links
+----------------------------------------------------------------------------------------------------------------------------------
+Link 1 | 101 <-> 1 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 2 | 101 <-> 2 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 3 | 101 <-> 3 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 4 | 101 <-> 4 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 5 | 101 <-> 5 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 6 | 101 <-> 6 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 7 | 101 <-> 7 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 8 | 101 <-> 8 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 9 | 101 <-> 9 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 10 | 101 <-> 10 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 11 | 102 <-> 11 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 12 | 102 <-> 12 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 13 | 102 <-> 13 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 14 | 102 <-> 14 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 15 | 102 <-> 15 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 16 | 102 <-> 16 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 17 | 102 <-> 17 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 18 | 102 <-> 18 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 19 | 102 <-> 19 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 20 | 102 <-> 20 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 21 | 103 <-> 21 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 22 | 103 <-> 22 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 23 | 103 <-> 23 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 24 | 103 <-> 24 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 25 | 103 <-> 25 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 26 | 103 <-> 26 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 27 | 103 <-> 27 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 28 | 103 <-> 28 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 29 | 103 <-> 29 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 30 | 103 <-> 30 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 31 | 104 <-> 31 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 32 | 104 <-> 32 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 33 | 104 <-> 33 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 34 | 104 <-> 34 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 35 | 104 <-> 35 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 36 | 104 <-> 36 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 37 | 104 <-> 37 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 38 | 104 <-> 38 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 39 | 104 <-> 39 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 40 | 104 <-> 40 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 41 | 105 <-> 41 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 42 | 105 <-> 42 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 43 | 105 <-> 43 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 44 | 105 <-> 44 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 45 | 105 <-> 45 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 46 | 105 <-> 46 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 47 | 105 <-> 47 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 48 | 105 <-> 48 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 49 | 105 <-> 49 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 50 | 105 <-> 50 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 51 | 106 <-> 51 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 52 | 106 <-> 52 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 53 | 106 <-> 53 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 54 | 106 <-> 54 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 55 | 106 <-> 55 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 56 | 106 <-> 56 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 57 | 106 <-> 57 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 58 | 106 <-> 58 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 59 | 106 <-> 59 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 60 | 106 <-> 60 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 61 | 107 <-> 61 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 62 | 107 <-> 62 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 63 | 107 <-> 63 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 64 | 107 <-> 64 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 65 | 107 <-> 65 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 66 | 107 <-> 66 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 67 | 107 <-> 67 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 68 | 107 <-> 68 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 69 | 107 <-> 69 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 70 | 107 <-> 70 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 71 | 108 <-> 71 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 72 | 108 <-> 72 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 73 | 108 <-> 73 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 74 | 108 <-> 74 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 75 | 108 <-> 75 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 76 | 108 <-> 76 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 77 | 108 <-> 77 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 78 | 108 <-> 78 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 79 | 108 <-> 79 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 80 | 108 <-> 80 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 81 | 109 <-> 81 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 82 | 109 <-> 82 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 83 | 109 <-> 83 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 84 | 109 <-> 84 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 85 | 109 <-> 85 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 86 | 109 <-> 86 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 87 | 109 <-> 87 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 88 | 109 <-> 88 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 89 | 109 <-> 89 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 90 | 109 <-> 90 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 91 | 110 <-> 91 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 92 | 110 <-> 92 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 93 | 110 <-> 93 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 94 | 110 <-> 94 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 95 | 110 <-> 95 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 96 | 110 <-> 96 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 97 | 110 <-> 97 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 98 | 110 <-> 98 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 99 | 110 <-> 99 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 100 | 110 <-> 100 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 101 | 1 <-> 2 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 102 | 2 <-> 3 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 103 | 3 <-> 4 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 104 | 4 <-> 5 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 105 | 5 <-> 6 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 106 | 6 <-> 7 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 107 | 7 <-> 8 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 108 | 8 <-> 9 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 109 | 9 <-> 10 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 110 | 10 <-> 1 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 111 | 11 <-> 12 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 112 | 12 <-> 13 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 113 | 13 <-> 14 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 114 | 14 <-> 15 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 115 | 15 <-> 16 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 116 | 16 <-> 17 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 117 | 17 <-> 18 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 118 | 18 <-> 19 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 119 | 19 <-> 20 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 120 | 20 <-> 11 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 121 | 21 <-> 22 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 122 | 22 <-> 23 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 123 | 23 <-> 24 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 124 | 24 <-> 25 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 125 | 25 <-> 26 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 126 | 26 <-> 27 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 127 | 27 <-> 28 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 128 | 28 <-> 29 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 129 | 29 <-> 30 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 130 | 30 <-> 21 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 131 | 31 <-> 32 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 132 | 32 <-> 33 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 133 | 33 <-> 34 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 134 | 34 <-> 35 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 135 | 35 <-> 36 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 136 | 36 <-> 37 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 137 | 37 <-> 38 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 138 | 38 <-> 39 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 139 | 39 <-> 40 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 140 | 40 <-> 31 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 141 | 41 <-> 42 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 142 | 42 <-> 43 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 143 | 43 <-> 44 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 144 | 44 <-> 45 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 145 | 45 <-> 46 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 146 | 46 <-> 47 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 147 | 47 <-> 48 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 148 | 48 <-> 49 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 149 | 49 <-> 50 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 150 | 50 <-> 41 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 151 | 51 <-> 52 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 152 | 52 <-> 53 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 153 | 53 <-> 54 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 154 | 54 <-> 55 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 155 | 55 <-> 56 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 156 | 56 <-> 57 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 157 | 57 <-> 58 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 158 | 58 <-> 59 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 159 | 59 <-> 60 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 160 | 60 <-> 51 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 161 | 61 <-> 62 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 162 | 62 <-> 63 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 163 | 63 <-> 64 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 164 | 64 <-> 65 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 165 | 65 <-> 66 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 166 | 66 <-> 67 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 167 | 67 <-> 68 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 168 | 68 <-> 69 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 169 | 69 <-> 70 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 170 | 70 <-> 61 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 171 | 71 <-> 72 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 172 | 72 <-> 73 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 173 | 73 <-> 74 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 174 | 74 <-> 75 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 175 | 75 <-> 76 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 176 | 76 <-> 77 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 177 | 77 <-> 78 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 178 | 78 <-> 79 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 179 | 79 <-> 80 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 180 | 80 <-> 71 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 181 | 81 <-> 82 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 182 | 82 <-> 83 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 183 | 83 <-> 84 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 184 | 84 <-> 85 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 185 | 85 <-> 86 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 186 | 86 <-> 87 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 187 | 87 <-> 88 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 188 | 88 <-> 89 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 189 | 89 <-> 90 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 190 | 90 <-> 81 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 191 | 91 <-> 92 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 192 | 92 <-> 93 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 193 | 93 <-> 94 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 194 | 94 <-> 95 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 195 | 95 <-> 96 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 196 | 96 <-> 97 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 197 | 97 <-> 98 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 198 | 98 <-> 99 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 199 | 99 <-> 100 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 200 | 100 <-> 91 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 201 | 101 <-> 102 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.01 s
+Link 202 | 102 <-> 103 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.01 s
+Link 203 | 103 <-> 104 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.01 s
+Link 204 | 104 <-> 105 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.01 s
+Link 205 | 105 <-> 106 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.01 s
+Link 206 | 106 <-> 107 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.01 s
+Link 207 | 107 <-> 108 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.01 s
+Link 208 | 108 <-> 109 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.01 s
+Link 209 | 109 <-> 110 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.01 s
+Link 210 | 110 <-> 101 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.01 s
+
+Resource Table
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Edge Node 1 | Cluster=1 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1000 J | Remaining Energy=1000 J | Available=True
+Edge Node 2 | Cluster=1 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.4 GHz | f_j=8400000000 cycles/s | F_j_avail=8400000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1200 J | Remaining Energy=1200 J | Available=True
+Edge Node 3 | Cluster=1 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=12800000000 cycles/s | F_j_avail=12800000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 4 | Cluster=1 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.3 GHz | f_j=5200000000 cycles/s | F_j_avail=5200000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=900 J | Remaining Energy=900 J | Available=True
+Edge Node 5 | Cluster=1 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.8 GHz | f_j=14400000000 cycles/s | F_j_avail=14400000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1400 J | Remaining Energy=1400 J | Available=True
+Edge Node 6 | Cluster=1 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.5 GHz | f_j=9000000000 cycles/s | F_j_avail=9000000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1100 J | Remaining Energy=1100 J | Available=True
+Edge Node 7 | Cluster=1 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.7 GHz | f_j=13600000000 cycles/s | F_j_avail=13600000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1600 J | Remaining Energy=1600 J | Available=True
+Edge Node 8 | Cluster=1 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=850 J | Remaining Energy=850 J | Available=True
+Edge Node 9 | Cluster=1 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=9600000000 cycles/s | F_j_avail=9600000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1300 J | Remaining Energy=1300 J | Available=True
+Edge Node 10 | Cluster=1 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=2.0 GHz | f_j=16000000000 cycles/s | F_j_avail=16000000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 11 | Cluster=2 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1000 J | Remaining Energy=1000 J | Available=True
+Edge Node 12 | Cluster=2 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.4 GHz | f_j=8400000000 cycles/s | F_j_avail=8400000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1200 J | Remaining Energy=1200 J | Available=True
+Edge Node 13 | Cluster=2 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=12800000000 cycles/s | F_j_avail=12800000000 cycles/s | Memory=20480 MB | Memory Demand=0 MB | Available Memory=20480 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 14 | Cluster=2 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.3 GHz | f_j=5200000000 cycles/s | F_j_avail=5200000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=900 J | Remaining Energy=900 J | Available=True
+Edge Node 15 | Cluster=2 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.8 GHz | f_j=14400000000 cycles/s | F_j_avail=14400000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1400 J | Remaining Energy=1400 J | Available=True
+Edge Node 16 | Cluster=2 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.5 GHz | f_j=9000000000 cycles/s | F_j_avail=9000000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1100 J | Remaining Energy=1100 J | Available=True
+Edge Node 17 | Cluster=2 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.7 GHz | f_j=13600000000 cycles/s | F_j_avail=13600000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1600 J | Remaining Energy=1600 J | Available=True
+Edge Node 18 | Cluster=2 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=850 J | Remaining Energy=850 J | Available=True
+Edge Node 19 | Cluster=2 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=9600000000 cycles/s | F_j_avail=9600000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1300 J | Remaining Energy=1300 J | Available=True
+Edge Node 20 | Cluster=2 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=2.0 GHz | f_j=16000000000 cycles/s | F_j_avail=16000000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 21 | Cluster=3 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1000 J | Remaining Energy=1000 J | Available=True
+Edge Node 22 | Cluster=3 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.4 GHz | f_j=8400000000 cycles/s | F_j_avail=8400000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1200 J | Remaining Energy=1200 J | Available=True
+Edge Node 23 | Cluster=3 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=12800000000 cycles/s | F_j_avail=12800000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 24 | Cluster=3 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.3 GHz | f_j=5200000000 cycles/s | F_j_avail=5200000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=900 J | Remaining Energy=900 J | Available=True
+Edge Node 25 | Cluster=3 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.8 GHz | f_j=14400000000 cycles/s | F_j_avail=14400000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1400 J | Remaining Energy=1400 J | Available=True
+Edge Node 26 | Cluster=3 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.5 GHz | f_j=9000000000 cycles/s | F_j_avail=9000000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1100 J | Remaining Energy=1100 J | Available=True
+Edge Node 27 | Cluster=3 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.7 GHz | f_j=13600000000 cycles/s | F_j_avail=13600000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1600 J | Remaining Energy=1600 J | Available=True
+Edge Node 28 | Cluster=3 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=850 J | Remaining Energy=850 J | Available=True
+Edge Node 29 | Cluster=3 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=9600000000 cycles/s | F_j_avail=9600000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1300 J | Remaining Energy=1300 J | Available=True
+Edge Node 30 | Cluster=3 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=2.0 GHz | f_j=16000000000 cycles/s | F_j_avail=16000000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 31 | Cluster=4 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1000 J | Remaining Energy=1000 J | Available=True
+Edge Node 32 | Cluster=4 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.4 GHz | f_j=8400000000 cycles/s | F_j_avail=8400000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1200 J | Remaining Energy=1200 J | Available=True
+Edge Node 33 | Cluster=4 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=12800000000 cycles/s | F_j_avail=12800000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 34 | Cluster=4 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.3 GHz | f_j=5200000000 cycles/s | F_j_avail=5200000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=900 J | Remaining Energy=900 J | Available=True
+Edge Node 35 | Cluster=4 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.8 GHz | f_j=14400000000 cycles/s | F_j_avail=14400000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1400 J | Remaining Energy=1400 J | Available=True
+Edge Node 36 | Cluster=4 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.5 GHz | f_j=9000000000 cycles/s | F_j_avail=9000000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1100 J | Remaining Energy=1100 J | Available=True
+Edge Node 37 | Cluster=4 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.7 GHz | f_j=13600000000 cycles/s | F_j_avail=13600000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1600 J | Remaining Energy=1600 J | Available=True
+Edge Node 38 | Cluster=4 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=850 J | Remaining Energy=850 J | Available=True
+Edge Node 39 | Cluster=4 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=9600000000 cycles/s | F_j_avail=9600000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1300 J | Remaining Energy=1300 J | Available=True
+Edge Node 40 | Cluster=4 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=2.0 GHz | f_j=16000000000 cycles/s | F_j_avail=16000000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 41 | Cluster=5 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1000 J | Remaining Energy=1000 J | Available=True
+Edge Node 42 | Cluster=5 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.4 GHz | f_j=8400000000 cycles/s | F_j_avail=8400000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1200 J | Remaining Energy=1200 J | Available=True
+Edge Node 43 | Cluster=5 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=12800000000 cycles/s | F_j_avail=12800000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 44 | Cluster=5 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.3 GHz | f_j=5200000000 cycles/s | F_j_avail=5200000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=900 J | Remaining Energy=900 J | Available=True
+Edge Node 45 | Cluster=5 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.8 GHz | f_j=14400000000 cycles/s | F_j_avail=14400000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1400 J | Remaining Energy=1400 J | Available=True
+Edge Node 46 | Cluster=5 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.5 GHz | f_j=9000000000 cycles/s | F_j_avail=9000000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1100 J | Remaining Energy=1100 J | Available=True
+Edge Node 47 | Cluster=5 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.7 GHz | f_j=13600000000 cycles/s | F_j_avail=13600000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1600 J | Remaining Energy=1600 J | Available=True
+Edge Node 48 | Cluster=5 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=850 J | Remaining Energy=850 J | Available=True
+Edge Node 49 | Cluster=5 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=9600000000 cycles/s | F_j_avail=9600000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1300 J | Remaining Energy=1300 J | Available=True
+Edge Node 50 | Cluster=5 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=2.0 GHz | f_j=16000000000 cycles/s | F_j_avail=16000000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 51 | Cluster=6 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1000 J | Remaining Energy=1000 J | Available=True
+Edge Node 52 | Cluster=6 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.4 GHz | f_j=8400000000 cycles/s | F_j_avail=8400000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1200 J | Remaining Energy=1200 J | Available=True
+Edge Node 53 | Cluster=6 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=12800000000 cycles/s | F_j_avail=12800000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 54 | Cluster=6 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.3 GHz | f_j=5200000000 cycles/s | F_j_avail=5200000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=900 J | Remaining Energy=900 J | Available=True
+Edge Node 55 | Cluster=6 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.8 GHz | f_j=14400000000 cycles/s | F_j_avail=14400000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1400 J | Remaining Energy=1400 J | Available=True
+Edge Node 56 | Cluster=6 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.5 GHz | f_j=9000000000 cycles/s | F_j_avail=9000000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1100 J | Remaining Energy=1100 J | Available=True
+Edge Node 57 | Cluster=6 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.7 GHz | f_j=13600000000 cycles/s | F_j_avail=13600000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1600 J | Remaining Energy=1600 J | Available=True
+Edge Node 58 | Cluster=6 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=850 J | Remaining Energy=850 J | Available=True
+Edge Node 59 | Cluster=6 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=9600000000 cycles/s | F_j_avail=9600000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1300 J | Remaining Energy=1300 J | Available=True
+Edge Node 60 | Cluster=6 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=2.0 GHz | f_j=16000000000 cycles/s | F_j_avail=16000000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 61 | Cluster=7 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1000 J | Remaining Energy=1000 J | Available=True
+Edge Node 62 | Cluster=7 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.4 GHz | f_j=8400000000 cycles/s | F_j_avail=8400000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1200 J | Remaining Energy=1200 J | Available=True
+Edge Node 63 | Cluster=7 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=12800000000 cycles/s | F_j_avail=12800000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 64 | Cluster=7 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.3 GHz | f_j=5200000000 cycles/s | F_j_avail=5200000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=900 J | Remaining Energy=900 J | Available=True
+Edge Node 65 | Cluster=7 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.8 GHz | f_j=14400000000 cycles/s | F_j_avail=14400000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1400 J | Remaining Energy=1400 J | Available=True
+Edge Node 66 | Cluster=7 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.5 GHz | f_j=9000000000 cycles/s | F_j_avail=9000000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1100 J | Remaining Energy=1100 J | Available=True
+Edge Node 67 | Cluster=7 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.7 GHz | f_j=13600000000 cycles/s | F_j_avail=13600000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1600 J | Remaining Energy=1600 J | Available=True
+Edge Node 68 | Cluster=7 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=850 J | Remaining Energy=850 J | Available=True
+Edge Node 69 | Cluster=7 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=9600000000 cycles/s | F_j_avail=9600000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1300 J | Remaining Energy=1300 J | Available=True
+Edge Node 70 | Cluster=7 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=2.0 GHz | f_j=16000000000 cycles/s | F_j_avail=16000000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 71 | Cluster=8 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1000 J | Remaining Energy=1000 J | Available=True
+Edge Node 72 | Cluster=8 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.4 GHz | f_j=8400000000 cycles/s | F_j_avail=8400000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1200 J | Remaining Energy=1200 J | Available=True
+Edge Node 73 | Cluster=8 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=12800000000 cycles/s | F_j_avail=12800000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 74 | Cluster=8 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.3 GHz | f_j=5200000000 cycles/s | F_j_avail=5200000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=900 J | Remaining Energy=900 J | Available=True
+Edge Node 75 | Cluster=8 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.8 GHz | f_j=14400000000 cycles/s | F_j_avail=14400000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1400 J | Remaining Energy=1400 J | Available=True
+Edge Node 76 | Cluster=8 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.5 GHz | f_j=9000000000 cycles/s | F_j_avail=9000000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1100 J | Remaining Energy=1100 J | Available=True
+Edge Node 77 | Cluster=8 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.7 GHz | f_j=13600000000 cycles/s | F_j_avail=13600000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1600 J | Remaining Energy=1600 J | Available=True
+Edge Node 78 | Cluster=8 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=850 J | Remaining Energy=850 J | Available=True
+Edge Node 79 | Cluster=8 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=9600000000 cycles/s | F_j_avail=9600000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1300 J | Remaining Energy=1300 J | Available=True
+Edge Node 80 | Cluster=8 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=2.0 GHz | f_j=16000000000 cycles/s | F_j_avail=16000000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 81 | Cluster=9 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1000 J | Remaining Energy=1000 J | Available=True
+Edge Node 82 | Cluster=9 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.4 GHz | f_j=8400000000 cycles/s | F_j_avail=8400000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1200 J | Remaining Energy=1200 J | Available=True
+Edge Node 83 | Cluster=9 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=12800000000 cycles/s | F_j_avail=12800000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 84 | Cluster=9 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.3 GHz | f_j=5200000000 cycles/s | F_j_avail=5200000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=900 J | Remaining Energy=900 J | Available=True
+Edge Node 85 | Cluster=9 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.8 GHz | f_j=14400000000 cycles/s | F_j_avail=14400000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1400 J | Remaining Energy=1400 J | Available=True
+Edge Node 86 | Cluster=9 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.5 GHz | f_j=9000000000 cycles/s | F_j_avail=9000000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1100 J | Remaining Energy=1100 J | Available=True
+Edge Node 87 | Cluster=9 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.7 GHz | f_j=13600000000 cycles/s | F_j_avail=13600000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1600 J | Remaining Energy=1600 J | Available=True
+Edge Node 88 | Cluster=9 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=850 J | Remaining Energy=850 J | Available=True
+Edge Node 89 | Cluster=9 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=9600000000 cycles/s | F_j_avail=9600000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1300 J | Remaining Energy=1300 J | Available=True
+Edge Node 90 | Cluster=9 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=2.0 GHz | f_j=16000000000 cycles/s | F_j_avail=16000000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 91 | Cluster=10 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1000 J | Remaining Energy=1000 J | Available=True
+Edge Node 92 | Cluster=10 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.4 GHz | f_j=8400000000 cycles/s | F_j_avail=8400000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1200 J | Remaining Energy=1200 J | Available=True
+Edge Node 93 | Cluster=10 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=12800000000 cycles/s | F_j_avail=12800000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 94 | Cluster=10 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.3 GHz | f_j=5200000000 cycles/s | F_j_avail=5200000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=900 J | Remaining Energy=900 J | Available=True
+Edge Node 95 | Cluster=10 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.8 GHz | f_j=14400000000 cycles/s | F_j_avail=14400000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1400 J | Remaining Energy=1400 J | Available=True
+Edge Node 96 | Cluster=10 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.5 GHz | f_j=9000000000 cycles/s | F_j_avail=9000000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1100 J | Remaining Energy=1100 J | Available=True
+Edge Node 97 | Cluster=10 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.7 GHz | f_j=13600000000 cycles/s | F_j_avail=13600000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1600 J | Remaining Energy=1600 J | Available=True
+Edge Node 98 | Cluster=10 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=850 J | Remaining Energy=850 J | Available=True
+Edge Node 99 | Cluster=10 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=9600000000 cycles/s | F_j_avail=9600000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1300 J | Remaining Energy=1300 J | Available=True
+Edge Node 100 | Cluster=10 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=2.0 GHz | f_j=16000000000 cycles/s | F_j_avail=16000000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+
+Resource Table Summary
+--------------------------------------------------------------------------------------------------------------
+Candidate Edge Nodes : 100
+Available Edge Nodes : 100
+
+Task Configuration
+----------------------------------------------------------------------------------------------------------------------------------
+Total Tasks : 20
+Task 1 | Source User=91 | Workload=250000000 cycles | Memory=1024 MB | Data=1 MB | F_req=41666667 cycles/s | R_th=1.3333 Mbps | Deadline=6 s
+Task 2 | Source User=11 | Workload=1400000000 cycles | Memory=4096 MB | Data=4 MB | F_req=155555556 cycles/s | R_th=3.5556 Mbps | Deadline=9 s
+Task 3 | Source User=21 | Workload=100000000 cycles | Memory=512 MB | Data=3 MB | F_req=20000000 cycles/s | R_th=4.8000 Mbps | Deadline=5 s
+Task 4 | Source User=31 | Workload=650000000 cycles | Memory=3072 MB | Data=3 MB | F_req=72222222 cycles/s | R_th=2.6667 Mbps | Deadline=9 s
+Task 5 | Source User=41 | Workload=900000000 cycles | Memory=4096 MB | Data=6 MB | F_req=75000000 cycles/s | R_th=4.0000 Mbps | Deadline=12 s
+Task 6 | Source User=51 | Workload=450000000 cycles | Memory=14500 MB | Data=2 MB | F_req=15000000 cycles/s | R_th=0.5333 Mbps | Deadline=30 s
+Task 7 | Source User=61 | Workload=1600000000 cycles | Memory=6144 MB | Data=5 MB | F_req=133333333 cycles/s | R_th=3.3333 Mbps | Deadline=12 s
+Task 8 | Source User=71 | Workload=300000000 cycles | Memory=1024 MB | Data=1 MB | F_req=60000000 cycles/s | R_th=1.6000 Mbps | Deadline=5 s
+Task 9 | Source User=81 | Workload=750000000 cycles | Memory=3072 MB | Data=3 MB | F_req=83333333 cycles/s | R_th=2.6667 Mbps | Deadline=9 s
+Task 10 | Source User=1 | Workload=650000000 cycles | Memory=18000 MB | Data=2 MB | F_req=40625000 cycles/s | R_th=1.0000 Mbps | Deadline=16 s
+Task 11 | Source User=2 | Workload=200000000 cycles | Memory=1024 MB | Data=2 MB | F_req=200000000 cycles/s | R_th=16.0000 Mbps | Deadline=1 s
+Task 12 | Source User=12 | Workload=700000000 cycles | Memory=2048 MB | Data=2 MB | F_req=87500000 cycles/s | R_th=2.0000 Mbps | Deadline=8 s
+Task 13 | Source User=22 | Workload=1200000000 cycles | Memory=4096 MB | Data=3 MB | F_req=120000000 cycles/s | R_th=2.4000 Mbps | Deadline=10 s
+Task 14 | Source User=32 | Workload=350000000 cycles | Memory=1024 MB | Data=1 MB | F_req=58333333 cycles/s | R_th=1.3333 Mbps | Deadline=6 s
+Task 15 | Source User=42 | Workload=900000000 cycles | Memory=3072 MB | Data=4 MB | F_req=81818182 cycles/s | R_th=2.9091 Mbps | Deadline=11 s
+Task 16 | Source User=52 | Workload=500000000 cycles | Memory=2048 MB | Data=2 MB | F_req=71428571 cycles/s | R_th=2.2857 Mbps | Deadline=7 s
+Task 17 | Source User=62 | Workload=1100000000 cycles | Memory=4096 MB | Data=4 MB | F_req=91666667 cycles/s | R_th=2.6667 Mbps | Deadline=12 s
+Task 18 | Source User=72 | Workload=450000000 cycles | Memory=1024 MB | Data=1 MB | F_req=75000000 cycles/s | R_th=1.3333 Mbps | Deadline=6 s
+Task 19 | Source User=82 | Workload=1500000000 cycles | Memory=6144 MB | Data=5 MB | F_req=107142857 cycles/s | R_th=2.8571 Mbps | Deadline=14 s
+Task 20 | Source User=92 | Workload=650000000 cycles | Memory=2048 MB | Data=2 MB | F_req=72222222 cycles/s | R_th=1.7778 Mbps | Deadline=9 s
+
+Starting simulation...
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+TASK 1 ARRIVAL
+==============================================================================================================
+Arrival Time : 4 s
+Source User  : 91
+Source Cluster       : 10
+SEARCH STAGE | task=1 | stage=LOCAL | candidates=[91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+SELECTION METRICS | Task 1 | {'decision_ms': 0.6870999932289124, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 10, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=1 | stage=LOCAL | mode=DGWO | candidates=10 | chosen=98 | oracle=[91, 98] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=98 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 1, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 10, 'candidates_after_checking': 10, 'preselection_ms': 1.2249000137671828, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.6907000206410885, 'final_verification_ms': 0.05920004332438111, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.9748000777326524}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 1 | Source User = 91 | Source Cluster = 10 | Selected Edge Node = 98 | Target Cluster = 10
+FLOW AUDIT CREATE | Task 1 | current_step=4 | start=4
+Task 1 | LOCAL | Edge Node 98 | Status=TRANSFERRING | Delay=0.8533s | Energy=0.036000J | CPU=1 | Memory=1024MB | Path=[110, 98]
+FLOW AUDIT END | Task 1 | start=4 | end=4 | order=PASS | status=finished
+Task 1 | Network transfer finished at observed step 5; scheduled modeled processing completion at step 6
+
+==============================================================================================================
+TASK 2 ARRIVAL
+==============================================================================================================
+Arrival Time : 5 s
+Source User  : 11
+Source Cluster       : 2
+SEARCH STAGE | task=2 | stage=LOCAL | candidates=[11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 2 | {'decision_ms': 0.5568999913521111, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 10, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=2 | stage=LOCAL | mode=DGWO | candidates=10 | chosen=11 | oracle=[11, 18] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=11 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 2, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 10, 'candidates_after_checking': 10, 'preselection_ms': 0.6636999896727502, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.5602000164799392, 'final_verification_ms': 0.04840001929551363, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.272300025448203}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 2 | Source User = 11 | Source Cluster = 2 | Selected Edge Node = 11 | Target Cluster = 2
+FLOW AUDIT CREATE | Task 2 | current_step=5 | start=5
+Task 2 | LOCAL | Edge Node 11 | Status=TRANSFERRING | Delay=3.7317s | Energy=0.201600J | CPU=1 | Memory=4096MB | Path=[102, 11]
+TIMING AUDIT | Task 1 | transfer_handoff=1.000s + processing=1.000s = observed=2.000s | analytical=0.853s | flow_end=4 | handoff=5
+Task 1 | COMPLETED on Edge Node 98 at step 6; released 1 CPU units and 1024 MB
+
+==============================================================================================================
+TASK 3 ARRIVAL
+==============================================================================================================
+Arrival Time : 6 s
+Source User  : 21
+Source Cluster       : 3
+SEARCH STAGE | task=3 | stage=LOCAL | candidates=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+SELECTION METRICS | Task 3 | {'decision_ms': 0.5522999563254416, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 10, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=3 | stage=LOCAL | mode=DGWO | candidates=10 | chosen=21 | oracle=[21, 28] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=21 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 3, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 10, 'candidates_after_checking': 10, 'preselection_ms': 0.6652000010944903, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.555399979930371, 'final_verification_ms': 0.08600001456215978, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.3065999955870211}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 3 | Source User = 21 | Source Cluster = 3 | Selected Edge Node = 21 | Target Cluster = 3
+FLOW AUDIT CREATE | Task 3 | current_step=6 | start=6
+Task 3 | LOCAL | Edge Node 21 | Status=TRANSFERRING | Delay=2.0083s | Energy=0.014400J | CPU=1 | Memory=512MB | Path=[103, 21]
+
+==============================================================================================================
+TASK 4 ARRIVAL
+==============================================================================================================
+Arrival Time : 7 s
+Source User  : 31
+Source Cluster       : 4
+SEARCH STAGE | task=4 | stage=LOCAL | candidates=[31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+SELECTION METRICS | Task 4 | {'decision_ms': 0.5513000069186091, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 10, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=4 | stage=LOCAL | mode=DGWO | candidates=10 | chosen=38 | oracle=[31, 38] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=38 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 4, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 10, 'candidates_after_checking': 10, 'preselection_ms': 0.6756000220775604, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.5539000267162919, 'final_verification_ms': 0.05600001895800233, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.2855000677518547}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 4 | Source User = 31 | Source Cluster = 4 | Selected Edge Node = 38 | Target Cluster = 4
+FLOW AUDIT CREATE | Task 4 | current_step=7 | start=7
+Task 4 | LOCAL | Edge Node 38 | Status=TRANSFERRING | Delay=2.4667s | Energy=0.093600J | CPU=1 | Memory=3072MB | Path=[104, 38]
+FLOW AUDIT END | Task 2 | start=5 | end=7 | order=PASS | status=finished
+Task 2 | Network transfer finished at observed step 8; scheduled modeled processing completion at step 10
+FLOW AUDIT END | Task 3 | start=6 | end=7 | order=PASS | status=finished
+Task 3 | Network transfer finished at observed step 8; scheduled modeled processing completion at step 9
+
+==============================================================================================================
+TASK 5 ARRIVAL
+==============================================================================================================
+Arrival Time : 8 s
+Source User  : 41
+Source Cluster       : 5
+SEARCH STAGE | task=5 | stage=LOCAL | candidates=[41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+SELECTION METRICS | Task 5 | {'decision_ms': 0.5543000297620893, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 9, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=5 | stage=LOCAL | mode=DGWO | candidates=10 | chosen=48 | oracle=[41, 48] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=48 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 5, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 10, 'candidates_after_checking': 10, 'preselection_ms': 0.7029999978840351, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.55720005184412, 'final_verification_ms': 0.05659996531903744, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.3168000150471926}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 5 | Source User = 41 | Source Cluster = 5 | Selected Edge Node = 48 | Target Cluster = 5
+FLOW AUDIT CREATE | Task 5 | current_step=8 | start=8
+Task 5 | LOCAL | Edge Node 48 | Status=TRANSFERRING | Delay=4.5950s | Energy=0.129600J | CPU=1 | Memory=4096MB | Path=[105, 48]
+TIMING AUDIT | Task 3 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=2.008s | flow_end=7 | handoff=8
+Task 3 | COMPLETED on Edge Node 21 at step 9; released 1 CPU units and 512 MB
+FLOW AUDIT END | Task 4 | start=7 | end=8 | order=PASS | status=finished
+Task 4 | Network transfer finished at observed step 9; scheduled modeled processing completion at step 10
+
+==============================================================================================================
+TASK 6 ARRIVAL
+==============================================================================================================
+Arrival Time : 9 s
+Source User  : 51
+Source Cluster       : 6
+SEARCH STAGE | task=6 | stage=LOCAL | candidates=[53, 55, 57, 60]
+SELECTION METRICS | Task 6 | {'decision_ms': 0.3177000326104462, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 4, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=6 | stage=LOCAL | mode=DGWO | candidates=4 | chosen=53 | oracle=[53] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=53 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 6, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 4, 'candidates_after_checking': 4, 'preselection_ms': 0.6006000330671668, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.3208999987691641, 'final_verification_ms': 0.05460000829771161, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 0.9761000401340425}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 6 | Source User = 51 | Source Cluster = 6 | Selected Edge Node = 53 | Target Cluster = 6
+FLOW AUDIT CREATE | Task 6 | current_step=9 | start=9
+Task 6 | LOCAL | Edge Node 53 | Status=TRANSFERRING | Delay=1.5663s | Energy=0.115200J | CPU=1 | Memory=14500MB | Path=[106, 53]
+TIMING AUDIT | Task 2 | transfer_handoff=3.000s + processing=2.000s = observed=5.000s | analytical=3.732s | flow_end=7 | handoff=8
+Task 2 | COMPLETED on Edge Node 11 at step 10; released 1 CPU units and 4096 MB
+TIMING AUDIT | Task 4 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=2.467s | flow_end=8 | handoff=9
+Task 4 | COMPLETED on Edge Node 38 at step 10; released 1 CPU units and 3072 MB
+FLOW AUDIT END | Task 6 | start=9 | end=10 | order=PASS | status=finished
+Task 6 | Network transfer finished at observed step 11; scheduled modeled processing completion at step 12
+FLOW AUDIT END | Task 5 | start=8 | end=11 | order=PASS | status=finished
+Task 5 | Network transfer finished at observed step 12; scheduled modeled processing completion at step 13
+TIMING AUDIT | Task 6 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=1.566s | flow_end=10 | handoff=11
+Task 6 | COMPLETED on Edge Node 53 at step 12; released 1 CPU units and 14500 MB
+TIMING AUDIT | Task 5 | transfer_handoff=4.000s + processing=1.000s = observed=5.000s | analytical=4.595s | flow_end=11 | handoff=12
+Task 5 | COMPLETED on Edge Node 48 at step 13; released 1 CPU units and 4096 MB
+
+==============================================================================================================
+TASK 7 ARRIVAL
+==============================================================================================================
+Arrival Time : 13 s
+Source User  : 61
+Source Cluster       : 7
+SEARCH STAGE | task=7 | stage=LOCAL | candidates=[61, 62, 63, 65, 66, 67, 69, 70]
+SELECTION METRICS | Task 7 | {'decision_ms': 0.47779997112229466, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 8, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=7 | stage=LOCAL | mode=DGWO | candidates=8 | chosen=61 | oracle=[61] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=61 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 7, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 8, 'candidates_after_checking': 8, 'preselection_ms': 0.6867000483907759, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.4808999947272241, 'final_verification_ms': 0.05470000905916095, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.222300052177161}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 7 | Source User = 61 | Source Cluster = 7 | Selected Edge Node = 61 | Target Cluster = 7
+FLOW AUDIT CREATE | Task 7 | current_step=13 | start=13
+Task 7 | LOCAL | Edge Node 61 | Status=TRANSFERRING | Delay=4.5383s | Energy=0.230400J | CPU=1 | Memory=6144MB | Path=[107, 61]
+
+==============================================================================================================
+TASK 8 ARRIVAL
+==============================================================================================================
+Arrival Time : 16 s
+Source User  : 71
+Source Cluster       : 8
+SEARCH STAGE | task=8 | stage=LOCAL | candidates=[71, 72, 73, 74, 75, 76, 77, 78, 79, 80]
+SELECTION METRICS | Task 8 | {'decision_ms': 0.6085999775677919, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 10, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=8 | stage=LOCAL | mode=DGWO | candidates=10 | chosen=78 | oracle=[71, 78] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=78 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 8, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 10, 'candidates_after_checking': 10, 'preselection_ms': 0.7708999910391867, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.6151999696157873, 'final_verification_ms': 0.061700004152953625, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.4477999648079276}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 8 | Source User = 71 | Source Cluster = 8 | Selected Edge Node = 78 | Target Cluster = 8
+FLOW AUDIT CREATE | Task 8 | current_step=16 | start=16
+Task 8 | LOCAL | Edge Node 78 | Status=TRANSFERRING | Delay=0.8950s | Energy=0.043200J | CPU=1 | Memory=1024MB | Path=[108, 78]
+FLOW AUDIT END | Task 7 | start=13 | end=16 | order=PASS | status=finished
+Task 7 | Network transfer finished at observed step 17; scheduled modeled processing completion at step 19
+FLOW AUDIT END | Task 8 | start=16 | end=16 | order=PASS | status=finished
+Task 8 | Network transfer finished at observed step 17; scheduled modeled processing completion at step 18
+
+==============================================================================================================
+TASK 9 ARRIVAL
+==============================================================================================================
+Arrival Time : 17 s
+Source User  : 81
+Source Cluster       : 9
+SEARCH STAGE | task=9 | stage=LOCAL | candidates=[81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+SELECTION METRICS | Task 9 | {'decision_ms': 0.5743999499827623, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 9, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=9 | stage=LOCAL | mode=DGWO | candidates=10 | chosen=88 | oracle=[81, 88] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=88 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 9, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 10, 'candidates_after_checking': 10, 'preselection_ms': 0.7324999896809459, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.5770999705418944, 'final_verification_ms': 0.05740002961829305, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.3669999898411334}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 9 | Source User = 81 | Source Cluster = 9 | Selected Edge Node = 88 | Target Cluster = 9
+FLOW AUDIT CREATE | Task 9 | current_step=17 | start=17
+Task 9 | LOCAL | Edge Node 88 | Status=TRANSFERRING | Delay=2.5500s | Energy=0.108000J | CPU=1 | Memory=3072MB | Path=[109, 88]
+TIMING AUDIT | Task 8 | transfer_handoff=1.000s + processing=1.000s = observed=2.000s | analytical=0.895s | flow_end=16 | handoff=17
+Task 8 | COMPLETED on Edge Node 78 at step 18; released 1 CPU units and 1024 MB
+TIMING AUDIT | Task 7 | transfer_handoff=4.000s + processing=2.000s = observed=6.000s | analytical=4.538s | flow_end=16 | handoff=17
+Task 7 | COMPLETED on Edge Node 61 at step 19; released 1 CPU units and 6144 MB
+FLOW AUDIT END | Task 9 | start=17 | end=18 | order=PASS | status=finished
+Task 9 | Network transfer finished at observed step 19; scheduled modeled processing completion at step 20
+TIMING AUDIT | Task 9 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=2.550s | flow_end=18 | handoff=19
+Task 9 | COMPLETED on Edge Node 88 at step 20; released 1 CPU units and 3072 MB
+
+==============================================================================================================
+TASK 10 ARRIVAL
+==============================================================================================================
+Arrival Time : 20 s
+Source User  : 1
+Source Cluster       : 1
+SEARCH STAGE | task=10 | stage=LOCAL | candidates=[]
+SEARCH STAGE | task=10 | stage=GLOBAL | candidates=[13]
+DIRECT FITNESS SELECTION | task=10 | candidates=1
+OPTIMALITY AUDIT | task=10 | stage=GLOBAL | mode=DIRECT | candidates=1 | chosen=13 | oracle=[13] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=13 | stage=GLOBAL
+FULL DECISION METRICS | {'task_id': 10, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 1, 'candidates_after_checking': 1, 'preselection_ms': 10.595100000500679, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.000700005330145359, 'final_verification_ms': 0.09510002564638853, 'search_stages': ['LOCAL', 'GLOBAL'], 'global_expansion_used': True, 'total_decision_ms': 10.690900031477213}
+
+--------------------------------------------------------------------------------------------------------------
+GLOBAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 10 | Source User = 1 | Source Cluster = 1 | Selected Edge Node = 13 | Target Cluster = 2
+FLOW AUDIT CREATE | Task 10 | current_step=20 | start=20
+Task 10 | GLOBAL | Edge Node 13 | Status=TRANSFERRING | Delay=1.7012s | Energy=0.166400J | CPU=1 | Memory=18000MB | Path=[101, 102, 13]
+
+==============================================================================================================
+TASK 11 ARRIVAL
+==============================================================================================================
+Arrival Time : 21 s
+Source User  : 2
+Source Cluster       : 1
+SEARCH STAGE | task=11 | stage=LOCAL | candidates=[]
+SEARCH STAGE | task=11 | stage=GLOBAL | candidates=[]
+FULL DECISION METRICS | {'task_id': 11, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 0, 'candidates_after_checking': 0, 'preselection_ms': 10.345399961806834, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.0, 'final_verification_ms': 0.0, 'search_stages': ['LOCAL', 'GLOBAL'], 'global_expansion_used': True, 'total_decision_ms': 10.345399961806834}
+NO FEASIBLE EDGE AFTER LOCAL/GLOBAL SEARCH | SOURCE IOT FALLBACK
+SOURCE FEASIBILITY | Task 11 | IoT=2 | CPU=500000000 cycles/s | RAM=2048 MB | RAM_required=1024.0 MB | energy=1000.000000 J | energy_required=0.005000 J | analytical=0.4000s | tick=1.0s | deadline=1.0s | PASS
+SOURCE FEASIBILITY | Task 11 | IoT=2 | CPU=500000000 cycles/s | RAM=2048 MB | RAM_required=1024.0 MB | energy=1000.000000 J | energy_required=0.005000 J | analytical=0.4000s | tick=1.0s | deadline=1.0s | PASS
+SOURCE RESOURCE RESERVED | Task 11 | IoT=2 | CPU=1 | RAM=1024 MB | energy_before=1000.000000 J | energy_after=999.995000 J
+SOURCE IOT SCHEDULED | Task 11 | completion step=22
+SOURCE RESOURCE RELEASED | Task 11 | IoT=2 | CPU=1 | RAM=1024 MB | CPU_demand=0.0 | RAM_demand=0 MB
+SOURCE TIMING AUDIT | Task 11 | arrival=21 | completion=22 | observed=1.000s | analytical=0.400s | deadline=1.0s | met=True
+Task 11 | SOURCE IOT COMPLETED at step 22
+FLOW AUDIT END | Task 10 | start=20 | end=21 | order=PASS | status=finished
+Task 10 | Network transfer finished at observed step 22; scheduled modeled processing completion at step 23
+
+==============================================================================================================
+TASK 12 ARRIVAL
+==============================================================================================================
+Arrival Time : 22 s
+Source User  : 12
+Source Cluster       : 2
+SEARCH STAGE | task=12 | stage=LOCAL | candidates=[11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 12 | {'decision_ms': 0.5592999514192343, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 10, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=12 | stage=LOCAL | mode=DGWO | candidates=10 | chosen=11 | oracle=[11, 18] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=11 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 12, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 10, 'candidates_after_checking': 10, 'preselection_ms': 0.6729000015184283, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.5624999757856131, 'final_verification_ms': 0.047600013203918934, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.2829999905079603}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 12 | Source User = 12 | Source Cluster = 2 | Selected Edge Node = 11 | Target Cluster = 2
+FLOW AUDIT CREATE | Task 12 | current_step=22 | start=22
+Task 12 | LOCAL | Edge Node 11 | Status=TRANSFERRING | Delay=1.8683s | Energy=0.100800J | CPU=1 | Memory=2048MB | Path=[102, 11]
+TIMING AUDIT | Task 10 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=1.701s | flow_end=21 | handoff=22
+Task 10 | COMPLETED on Edge Node 13 at step 23; released 1 CPU units and 18000 MB
+FLOW AUDIT END | Task 12 | start=22 | end=23 | order=PASS | status=finished
+Task 12 | Network transfer finished at observed step 24; scheduled modeled processing completion at step 25
+
+==============================================================================================================
+TASK 13 ARRIVAL
+==============================================================================================================
+Arrival Time : 24 s
+Source User  : 22
+Source Cluster       : 3
+SEARCH STAGE | task=13 | stage=LOCAL | candidates=[21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+SELECTION METRICS | Task 13 | {'decision_ms': 0.5528999608941376, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 10, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=13 | stage=LOCAL | mode=DGWO | candidates=10 | chosen=28 | oracle=[21, 28] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=28 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 13, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 10, 'candidates_after_checking': 10, 'preselection_ms': 0.6735000060871243, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.5555999814532697, 'final_verification_ms': 0.05189998773857951, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.2809999752789736}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 13 | Source User = 22 | Source Cluster = 3 | Selected Edge Node = 28 | Target Cluster = 3
+FLOW AUDIT CREATE | Task 13 | current_step=24 | start=24
+Task 13 | LOCAL | Edge Node 28 | Status=TRANSFERRING | Delay=2.9250s | Energy=0.172800J | CPU=1 | Memory=4096MB | Path=[103, 28]
+TIMING AUDIT | Task 12 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=1.868s | flow_end=23 | handoff=24
+Task 12 | COMPLETED on Edge Node 11 at step 25; released 1 CPU units and 2048 MB
+FLOW AUDIT END | Task 13 | start=24 | end=25 | order=PASS | status=finished
+Task 13 | Network transfer finished at observed step 26; scheduled modeled processing completion at step 28
+
+==============================================================================================================
+TASK 14 ARRIVAL
+==============================================================================================================
+Arrival Time : 27 s
+Source User  : 32
+Source Cluster       : 4
+SEARCH STAGE | task=14 | stage=LOCAL | candidates=[31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+SELECTION METRICS | Task 14 | {'decision_ms': 0.5544000305235386, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 9, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=14 | stage=LOCAL | mode=DGWO | candidates=10 | chosen=31 | oracle=[31, 38] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=31 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 14, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 10, 'candidates_after_checking': 10, 'preselection_ms': 0.6947999936528504, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.5572999943979084, 'final_verification_ms': 0.04959997022524476, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.3016999582760036}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 14 | Source User = 32 | Source Cluster = 4 | Selected Edge Node = 31 | Target Cluster = 4
+FLOW AUDIT CREATE | Task 14 | current_step=27 | start=27
+Task 14 | LOCAL | Edge Node 31 | Status=TRANSFERRING | Delay=0.9367s | Energy=0.050400J | CPU=1 | Memory=1024MB | Path=[104, 31]
+TIMING AUDIT | Task 13 | transfer_handoff=2.000s + processing=2.000s = observed=4.000s | analytical=2.925s | flow_end=25 | handoff=26
+Task 13 | COMPLETED on Edge Node 28 at step 28; released 1 CPU units and 4096 MB
+FLOW AUDIT END | Task 14 | start=27 | end=27 | order=PASS | status=finished
+Task 14 | Network transfer finished at observed step 28; scheduled modeled processing completion at step 29
+
+==============================================================================================================
+TASK 15 ARRIVAL
+==============================================================================================================
+Arrival Time : 28 s
+Source User  : 42
+Source Cluster       : 5
+SEARCH STAGE | task=15 | stage=LOCAL | candidates=[41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+SELECTION METRICS | Task 15 | {'decision_ms': 0.5947999889031053, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 10, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=15 | stage=LOCAL | mode=DGWO | candidates=10 | chosen=48 | oracle=[41, 48] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=48 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 15, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 10, 'candidates_after_checking': 10, 'preselection_ms': 0.7072999724186957, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.5975000094622374, 'final_verification_ms': 0.053499999921768904, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.358299981802702}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 15 | Source User = 42 | Source Cluster = 5 | Selected Edge Node = 48 | Target Cluster = 5
+FLOW AUDIT CREATE | Task 15 | current_step=28 | start=28
+Task 15 | LOCAL | Edge Node 48 | Status=TRANSFERRING | Delay=3.3150s | Energy=0.129600J | CPU=1 | Memory=3072MB | Path=[105, 48]
+TIMING AUDIT | Task 14 | transfer_handoff=1.000s + processing=1.000s = observed=2.000s | analytical=0.937s | flow_end=27 | handoff=28
+Task 14 | COMPLETED on Edge Node 31 at step 29; released 1 CPU units and 1024 MB
+FLOW AUDIT END | Task 15 | start=28 | end=30 | order=PASS | status=finished
+Task 15 | Network transfer finished at observed step 31; scheduled modeled processing completion at step 32
+
+==============================================================================================================
+TASK 16 ARRIVAL
+==============================================================================================================
+Arrival Time : 31 s
+Source User  : 52
+Source Cluster       : 6
+SEARCH STAGE | task=16 | stage=LOCAL | candidates=[51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+SELECTION METRICS | Task 16 | {'decision_ms': 0.569300027564168, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 9, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=16 | stage=LOCAL | mode=DGWO | candidates=10 | chosen=58 | oracle=[51, 58] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=58 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 16, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 10, 'candidates_after_checking': 10, 'preselection_ms': 0.7114000036381185, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.5717000458389521, 'final_verification_ms': 0.0543000060133636, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.3374000554904342}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 16 | Source User = 52 | Source Cluster = 6 | Selected Edge Node = 58 | Target Cluster = 6
+FLOW AUDIT CREATE | Task 16 | current_step=31 | start=31
+Task 16 | LOCAL | Edge Node 58 | Status=TRANSFERRING | Delay=1.7017s | Energy=0.072000J | CPU=1 | Memory=2048MB | Path=[106, 58]
+TIMING AUDIT | Task 15 | transfer_handoff=3.000s + processing=1.000s = observed=4.000s | analytical=3.315s | flow_end=30 | handoff=31
+Task 15 | COMPLETED on Edge Node 48 at step 32; released 1 CPU units and 3072 MB
+
+==============================================================================================================
+TASK 17 ARRIVAL
+==============================================================================================================
+Arrival Time : 32 s
+Source User  : 62
+Source Cluster       : 7
+SEARCH STAGE | task=17 | stage=LOCAL | candidates=[61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+SELECTION METRICS | Task 17 | {'decision_ms': 0.6016999832354486, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 10, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=17 | stage=LOCAL | mode=DGWO | candidates=10 | chosen=68 | oracle=[61, 68] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=68 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 17, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 10, 'candidates_after_checking': 10, 'preselection_ms': 0.750900013372302, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.6041000015102327, 'final_verification_ms': 0.05490001058205962, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.4099000254645944}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 17 | Source User = 62 | Source Cluster = 7 | Selected Edge Node = 68 | Target Cluster = 7
+FLOW AUDIT CREATE | Task 17 | current_step=32 | start=32
+Task 17 | LOCAL | Edge Node 68 | Status=TRANSFERRING | Delay=3.4817s | Energy=0.158400J | CPU=1 | Memory=4096MB | Path=[107, 68]
+FLOW AUDIT END | Task 16 | start=31 | end=32 | order=PASS | status=finished
+Task 16 | Network transfer finished at observed step 33; scheduled modeled processing completion at step 34
+
+==============================================================================================================
+TASK 18 ARRIVAL
+==============================================================================================================
+Arrival Time : 33 s
+Source User  : 72
+Source Cluster       : 8
+SEARCH STAGE | task=18 | stage=LOCAL | candidates=[71, 72, 73, 74, 75, 76, 77, 78, 79, 80]
+SELECTION METRICS | Task 18 | {'decision_ms': 0.5926000303588808, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 10, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=18 | stage=LOCAL | mode=DGWO | candidates=10 | chosen=71 | oracle=[71, 78] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=71 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 18, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 10, 'candidates_after_checking': 10, 'preselection_ms': 0.7224999717436731, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.5951000493951142, 'final_verification_ms': 0.05440000677481294, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.3720000279136002}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 18 | Source User = 72 | Source Cluster = 8 | Selected Edge Node = 71 | Target Cluster = 8
+FLOW AUDIT CREATE | Task 18 | current_step=33 | start=33
+Task 18 | LOCAL | Edge Node 71 | Status=TRANSFERRING | Delay=1.0200s | Energy=0.064800J | CPU=1 | Memory=1024MB | Path=[108, 71]
+TIMING AUDIT | Task 16 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=1.702s | flow_end=32 | handoff=33
+Task 16 | COMPLETED on Edge Node 58 at step 34; released 1 CPU units and 2048 MB
+FLOW AUDIT END | Task 18 | start=33 | end=33 | order=PASS | status=finished
+Task 18 | Network transfer finished at observed step 34; scheduled modeled processing completion at step 35
+
+==============================================================================================================
+TASK 19 ARRIVAL
+==============================================================================================================
+Arrival Time : 34 s
+Source User  : 82
+Source Cluster       : 9
+SEARCH STAGE | task=19 | stage=LOCAL | candidates=[81, 82, 83, 85, 86, 87, 89, 90]
+SELECTION METRICS | Task 19 | {'decision_ms': 0.49789994955062866, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 8, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=19 | stage=LOCAL | mode=DGWO | candidates=8 | chosen=81 | oracle=[81] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=81 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 19, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 8, 'candidates_after_checking': 8, 'preselection_ms': 0.721599964890629, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.5002999678254128, 'final_verification_ms': 0.05489995237439871, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.2767998850904405}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 19 | Source User = 82 | Source Cluster = 9 | Selected Edge Node = 81 | Target Cluster = 9
+FLOW AUDIT CREATE | Task 19 | current_step=34 | start=34
+Task 19 | LOCAL | Edge Node 81 | Status=TRANSFERRING | Delay=4.4550s | Energy=0.216000J | CPU=1 | Memory=6144MB | Path=[109, 81]
+FLOW AUDIT END | Task 17 | start=32 | end=34 | order=PASS | status=finished
+Task 17 | Network transfer finished at observed step 35; scheduled modeled processing completion at step 36
+TIMING AUDIT | Task 18 | transfer_handoff=1.000s + processing=1.000s = observed=2.000s | analytical=1.020s | flow_end=33 | handoff=34
+Task 18 | COMPLETED on Edge Node 71 at step 35; released 1 CPU units and 1024 MB
+TIMING AUDIT | Task 17 | transfer_handoff=3.000s + processing=1.000s = observed=4.000s | analytical=3.482s | flow_end=34 | handoff=35
+Task 17 | COMPLETED on Edge Node 68 at step 36; released 1 CPU units and 4096 MB
+FLOW AUDIT END | Task 19 | start=34 | end=37 | order=PASS | status=finished
+Task 19 | Network transfer finished at observed step 38; scheduled modeled processing completion at step 40
+
+==============================================================================================================
+TASK 20 ARRIVAL
+==============================================================================================================
+Arrival Time : 38 s
+Source User  : 92
+Source Cluster       : 10
+SEARCH STAGE | task=20 | stage=LOCAL | candidates=[91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+SELECTION METRICS | Task 20 | {'decision_ms': 0.6247999845072627, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 10, 'fitness_gap': None}
+OPTIMALITY AUDIT | task=20 | stage=LOCAL | mode=DGWO | candidates=10 | chosen=98 | oracle=[91, 98] | gap=0 | match=True
+FINAL VERIFICATION PASSED | node=98 | stage=LOCAL
+FULL DECISION METRICS | {'task_id': 20, 'method': 'dgwo', 'edge_nodes_before': 100, 'candidates_after_preselection': 10, 'candidates_after_checking': 10, 'preselection_ms': 0.7455999730154872, 'preselection_revalidation_ms': 0.0, 'selection_ms': 0.6272000027820468, 'final_verification_ms': 0.061400001868605614, 'search_stages': ['LOCAL'], 'global_expansion_used': False, 'total_decision_ms': 1.4341999776661396}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 20 | Source User = 92 | Source Cluster = 10 | Selected Edge Node = 98 | Target Cluster = 10
+FLOW AUDIT CREATE | Task 20 | current_step=38 | start=38
+Task 20 | LOCAL | Edge Node 98 | Status=TRANSFERRING | Delay=1.8267s | Energy=0.093600J | CPU=1 | Memory=2048MB | Path=[110, 98]
+TIMING AUDIT | Task 19 | transfer_handoff=4.000s + processing=2.000s = observed=6.000s | analytical=4.455s | flow_end=37 | handoff=38
+Task 19 | COMPLETED on Edge Node 81 at step 40; released 1 CPU units and 6144 MB
+FLOW AUDIT END | Task 20 | start=38 | end=39 | order=PASS | status=finished
+Task 20 | Network transfer finished at observed step 40; scheduled modeled processing completion at step 41
+TIMING AUDIT | Task 20 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=1.827s | flow_end=39 | handoff=40
+Task 20 | COMPLETED on Edge Node 98 at step 41; released 1 CPU units and 2048 MB
+
+==============================================================================================================
+FINAL FILTERING / OFFLOADING SUMMARY
+==============================================================================================================
+Task 1 | Feasible Candidates = [91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+Task 2 | Feasible Candidates = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 3 | Feasible Candidates = [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+Task 4 | Feasible Candidates = [31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+Task 5 | Feasible Candidates = [41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+Task 6 | Feasible Candidates = [53, 55, 57, 60]
+Task 7 | Feasible Candidates = [61, 62, 63, 65, 66, 67, 69, 70]
+Task 8 | Feasible Candidates = [71, 72, 73, 74, 75, 76, 77, 78, 79, 80]
+Task 9 | Feasible Candidates = [81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+Task 10 | Feasible Candidates = [13]
+Task 11 | Feasible Candidates = []
+Task 12 | Feasible Candidates = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 13 | Feasible Candidates = [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+Task 14 | Feasible Candidates = [31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
+Task 15 | Feasible Candidates = [41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+Task 16 | Feasible Candidates = [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+Task 17 | Feasible Candidates = [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+Task 18 | Feasible Candidates = [71, 72, 73, 74, 75, 76, 77, 78, 79, 80]
+Task 19 | Feasible Candidates = [81, 82, 83, 85, 86, 87, 89, 90]
+Task 20 | Feasible Candidates = [91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
+
+OFFLOADING SUMMARY
+--------------------------------------------------------------------------------------------------------------
+Task 1 | Type=LOCAL_OFFLOADING | Source User=91 | Edge Node=98 | Status=COMPLETED | Total Delay=0.8533 s | Computation Energy=0.036000 J
+  Timing: analytical=0.8533333333333334s | observed=2.0s | deadline met=True | completed at step=6
+Task 2 | Type=LOCAL_OFFLOADING | Source User=11 | Edge Node=11 | Status=COMPLETED | Total Delay=3.7317 s | Computation Energy=0.201600 J
+  Timing: analytical=3.7316666666666665s | observed=5.0s | deadline met=True | completed at step=10
+Task 3 | Type=LOCAL_OFFLOADING | Source User=21 | Edge Node=21 | Status=COMPLETED | Total Delay=2.0083 s | Computation Energy=0.014400 J
+  Timing: analytical=2.0083333333333333s | observed=3.0s | deadline met=True | completed at step=9
+Task 4 | Type=LOCAL_OFFLOADING | Source User=31 | Edge Node=38 | Status=COMPLETED | Total Delay=2.4667 s | Computation Energy=0.093600 J
+  Timing: analytical=2.466666666666667s | observed=3.0s | deadline met=True | completed at step=10
+Task 5 | Type=LOCAL_OFFLOADING | Source User=41 | Edge Node=48 | Status=COMPLETED | Total Delay=4.5950 s | Computation Energy=0.129600 J
+  Timing: analytical=4.595s | observed=5.0s | deadline met=True | completed at step=13
+Task 6 | Type=LOCAL_OFFLOADING | Source User=51 | Edge Node=53 | Status=COMPLETED | Total Delay=1.5663 s | Computation Energy=0.115200 J
+  Timing: analytical=1.5662500000000001s | observed=3.0s | deadline met=True | completed at step=12
+Task 7 | Type=LOCAL_OFFLOADING | Source User=61 | Edge Node=61 | Status=COMPLETED | Total Delay=4.5383 s | Computation Energy=0.230400 J
+  Timing: analytical=4.538333333333333s | observed=6.0s | deadline met=True | completed at step=19
+Task 8 | Type=LOCAL_OFFLOADING | Source User=71 | Edge Node=78 | Status=COMPLETED | Total Delay=0.8950 s | Computation Energy=0.043200 J
+  Timing: analytical=0.895s | observed=2.0s | deadline met=True | completed at step=18
+Task 9 | Type=LOCAL_OFFLOADING | Source User=81 | Edge Node=88 | Status=COMPLETED | Total Delay=2.5500 s | Computation Energy=0.108000 J
+  Timing: analytical=2.55s | observed=3.0s | deadline met=True | completed at step=20
+Task 10 | Type=GLOBAL_OFFLOADING | Source User=1 | Edge Node=13 | Status=COMPLETED | Total Delay=1.7012 s | Computation Energy=0.166400 J
+  Timing: analytical=1.70125s | observed=3.0s | deadline met=True | completed at step=23
+Task 11 | Type=SOURCE_IOT | Source User=2 | Source IoT=2 | Status=COMPLETED_LOCALLY | Total Delay=0.4000 s | Computation Energy=0.005000 J
+  Timing: analytical=0.4s | observed=1.0s | deadline met=True | completed at step=22
+Task 12 | Type=LOCAL_OFFLOADING | Source User=12 | Edge Node=11 | Status=COMPLETED | Total Delay=1.8683 s | Computation Energy=0.100800 J
+  Timing: analytical=1.8683333333333334s | observed=3.0s | deadline met=True | completed at step=25
+Task 13 | Type=LOCAL_OFFLOADING | Source User=22 | Edge Node=28 | Status=COMPLETED | Total Delay=2.9250 s | Computation Energy=0.172800 J
+  Timing: analytical=2.925s | observed=4.0s | deadline met=True | completed at step=28
+Task 14 | Type=LOCAL_OFFLOADING | Source User=32 | Edge Node=31 | Status=COMPLETED | Total Delay=0.9367 s | Computation Energy=0.050400 J
+  Timing: analytical=0.9366666666666668s | observed=2.0s | deadline met=True | completed at step=29
+Task 15 | Type=LOCAL_OFFLOADING | Source User=42 | Edge Node=48 | Status=COMPLETED | Total Delay=3.3150 s | Computation Energy=0.129600 J
+  Timing: analytical=3.315s | observed=4.0s | deadline met=True | completed at step=32
+Task 16 | Type=LOCAL_OFFLOADING | Source User=52 | Edge Node=58 | Status=COMPLETED | Total Delay=1.7017 s | Computation Energy=0.072000 J
+  Timing: analytical=1.7016666666666667s | observed=3.0s | deadline met=True | completed at step=34
+Task 17 | Type=LOCAL_OFFLOADING | Source User=62 | Edge Node=68 | Status=COMPLETED | Total Delay=3.4817 s | Computation Energy=0.158400 J
+  Timing: analytical=3.4816666666666665s | observed=4.0s | deadline met=True | completed at step=36
+Task 18 | Type=LOCAL_OFFLOADING | Source User=72 | Edge Node=71 | Status=COMPLETED | Total Delay=1.0200 s | Computation Energy=0.064800 J
+  Timing: analytical=1.02s | observed=2.0s | deadline met=True | completed at step=35
+Task 19 | Type=LOCAL_OFFLOADING | Source User=82 | Edge Node=81 | Status=COMPLETED | Total Delay=4.4550 s | Computation Energy=0.216000 J
+  Timing: analytical=4.455s | observed=6.0s | deadline met=True | completed at step=40
+Task 20 | Type=LOCAL_OFFLOADING | Source User=92 | Edge Node=98 | Status=COMPLETED | Total Delay=1.8267 s | Computation Energy=0.093600 J
+  Timing: analytical=1.8266666666666667s | observed=3.0s | deadline met=True | completed at step=41
+
+
+AUTOMATIC EXECUTION COUNTS | LOCAL_OFFLOADING=18 | GLOBAL_OFFLOADING=1 | SOURCE_IOT=1 | REJECTED=0
+TASK ARRIVAL / EXECUTION ACCOUNTING
+--------------------------------------------------------------------------------------------------------------
+Tasks generated         : 20
+Tasks processed         : 20
+Tasks with recorded result: 20
+All generated tasks reached the processing pipeline.
+
+FINAL RESOURCE STATE AFTER OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Node 1 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1000.000000 J | Available=True
+Node 2 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1200.000000 J | Available=True
+Node 3 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 4 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=900.000000 J | Available=True
+Node 5 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1400.000000 J | Available=True
+Node 6 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1100.000000 J | Available=True
+Node 7 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1600.000000 J | Available=True
+Node 8 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=850.000000 J | Available=True
+Node 9 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1300.000000 J | Available=True
+Node 10 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 11 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=999.697600 J | Available=True
+Node 12 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1200.000000 J | Available=True
+Node 13 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=20480 MB | Remaining Energy=1499.833600 J | Available=True
+Node 14 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=900.000000 J | Available=True
+Node 15 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1400.000000 J | Available=True
+Node 16 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1100.000000 J | Available=True
+Node 17 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1600.000000 J | Available=True
+Node 18 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=850.000000 J | Available=True
+Node 19 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1300.000000 J | Available=True
+Node 20 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 21 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=999.985600 J | Available=True
+Node 22 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1200.000000 J | Available=True
+Node 23 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 24 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=900.000000 J | Available=True
+Node 25 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1400.000000 J | Available=True
+Node 26 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1100.000000 J | Available=True
+Node 27 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1600.000000 J | Available=True
+Node 28 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=849.827200 J | Available=True
+Node 29 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1300.000000 J | Available=True
+Node 30 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 31 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=999.949600 J | Available=True
+Node 32 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1200.000000 J | Available=True
+Node 33 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 34 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=900.000000 J | Available=True
+Node 35 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1400.000000 J | Available=True
+Node 36 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1100.000000 J | Available=True
+Node 37 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1600.000000 J | Available=True
+Node 38 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=849.906400 J | Available=True
+Node 39 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1300.000000 J | Available=True
+Node 40 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 41 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1000.000000 J | Available=True
+Node 42 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1200.000000 J | Available=True
+Node 43 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 44 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=900.000000 J | Available=True
+Node 45 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1400.000000 J | Available=True
+Node 46 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1100.000000 J | Available=True
+Node 47 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1600.000000 J | Available=True
+Node 48 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=849.740800 J | Available=True
+Node 49 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1300.000000 J | Available=True
+Node 50 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 51 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1000.000000 J | Available=True
+Node 52 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1200.000000 J | Available=True
+Node 53 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1499.884800 J | Available=True
+Node 54 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=900.000000 J | Available=True
+Node 55 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1400.000000 J | Available=True
+Node 56 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1100.000000 J | Available=True
+Node 57 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1600.000000 J | Available=True
+Node 58 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=849.928000 J | Available=True
+Node 59 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1300.000000 J | Available=True
+Node 60 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 61 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=999.769600 J | Available=True
+Node 62 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1200.000000 J | Available=True
+Node 63 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 64 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=900.000000 J | Available=True
+Node 65 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1400.000000 J | Available=True
+Node 66 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1100.000000 J | Available=True
+Node 67 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1600.000000 J | Available=True
+Node 68 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=849.841600 J | Available=True
+Node 69 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1300.000000 J | Available=True
+Node 70 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 71 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=999.935200 J | Available=True
+Node 72 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1200.000000 J | Available=True
+Node 73 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 74 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=900.000000 J | Available=True
+Node 75 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1400.000000 J | Available=True
+Node 76 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1100.000000 J | Available=True
+Node 77 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1600.000000 J | Available=True
+Node 78 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=849.956800 J | Available=True
+Node 79 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1300.000000 J | Available=True
+Node 80 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 81 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=999.784000 J | Available=True
+Node 82 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1200.000000 J | Available=True
+Node 83 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 84 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=900.000000 J | Available=True
+Node 85 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1400.000000 J | Available=True
+Node 86 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1100.000000 J | Available=True
+Node 87 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1600.000000 J | Available=True
+Node 88 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=849.892000 J | Available=True
+Node 89 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1300.000000 J | Available=True
+Node 90 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 91 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1000.000000 J | Available=True
+Node 92 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1200.000000 J | Available=True
+Node 93 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 94 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=900.000000 J | Available=True
+Node 95 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1400.000000 J | Available=True
+Node 96 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1100.000000 J | Available=True
+Node 97 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1600.000000 J | Available=True
+Node 98 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=849.870400 J | Available=True
+Node 99 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1300.000000 J | Available=True
+Node 100 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+
+==============================================================================================================
+SIMULATION COMPLETED
+==============================================================================================================
+EXPERIMENT JSON: C:\Users\HUAWEI\Documents\Project_2026\MEC_offloading_Project\results\optimality_20261122_022047_053366\C100_dgwo_s44_w10_i5_n20_seed.json

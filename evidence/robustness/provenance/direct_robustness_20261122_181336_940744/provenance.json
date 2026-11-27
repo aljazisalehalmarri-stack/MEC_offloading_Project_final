@@ -1,0 +1,39 @@
+{
+  "protocol": "direct_baselines_trial_v1",
+  "mode": "robustness",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "packages": {
+    "edge_sim_py": "1.1.0",
+    "Mesa": "1.2.1",
+    "networkx": "3.4.2",
+    "msgpack": "1.2.4",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1"
+  },
+  "full_statistical_evaluation": true,
+  "files": {
+    "baselines.py": "36828d81944ba4d72a415ab1086587d1f0e2b1c4875a9ca660f913497d8021b8",
+    "baselines_direct.py": "cdd856e2b8f6e02e88a5679c76353b9f6fa6efe787c4dc0c5424552a396e0f07",
+    "candidate_checking.py": "e6d17abf030497a847d49336e5da1d9cdaf9be906eeb4b9c48892856c1fe0925",
+    "dgwo.py": "069fc5e876382cfcd6b8630bb3ffdabb7e4c91aabe3e1fefec84bb96b461e69a",
+    "energy_model.py": "f59f247c889940eacad9e3136d155285b558ad85348ef40c625e644443b0db08",
+    "filtering.py": "9f1f10d8f14680ce0765c9619773848a05db19ee43cc62f65995e3c2f6ba5f9f",
+    "fitness.py": "03de626511a98e97017f12d35fddc91b3149610424142b9ef0d18b06c5517526",
+    "main_ablation_local_first.py": "82915b8a36ecbc2ee872616b35b3267dff86015d8fcb3748fc1bc8e424c88999",
+    "main_direct_baselines.py": "5318c1423d47c5d8f4dfb013a8680b8b8ca5d545f533124a09a04e6c4928f255",
+    "main_final_local_first.py": "17c3a863a414426740ddbb80783ed24c539bdf1bdd7ed7a650c0ec5bc2bfcd8f",
+    "main_optimality_verification_5iter.py": "089896fe2562cf0b8e4b8bce1467c2b3c349c18dda1add38a8187d15bd802f89",
+    "main_workload_scalability_5iter.py": "2815dad248f15550801c6f5a1a2faa2e13a3da6343b5b5b7142bb7bc643c47d4",
+    "network_resources.py": "5a294dd9aab68f298b5a2f05fbebfe038de175ff8fcc194ea02e5bda76fb6893",
+    "offloading.py": "17e3677889df8f9eff8d2eb06137ca3b7c7f00768faff857dc568f26f9c6f77e",
+    "resource_table.py": "770be3448965916d360330acc668b5abdee714f757b0da6bd85a057807d90899",
+    "run_direct_comparison.py": "96a724e7da6346e560ca2c1c77cf805854a30687add21c698923c591e57cc05f",
+    "run_project_experiments.py": "8af3685dcaadf530048f4b3f7fc035bbb0be62e5263edb62c3cc267674e2d7f6",
+    "task.py": "1c669c38bafdb04bc709d9691ac11b36d0df1ab52ed834772b8c1ab37d78f72d",
+    "timing_model.py": "62f85ba30666187e747b8bd7b0667590f1a1d9a86c5690e5741c4e53608a5339",
+    "C10.json": "ffd058149ced394e29cde88fad7047f5ca7f14c1130848b375fe7467e5445267",
+    "C100.json": "0ead833fddec9c2523538e322f279559f31b8ab26bebf8cb60f1f1c98aa3c872",
+    "C20.json": "2b80a363707f0fe880b9ece35c6a7ec29923e76150a22941b706df36775af123",
+    "C50.json": "2ec4decb9ba6c0fed9035551dd3a0f4b40b2fc381643e02ef8b8b0815ba0c013"
+  }
+}

@@ -1,0 +1,768 @@
+
+REPRODUCIBLE DIVERSE TASK INPUTS
+--------------------------------------------------------------------------------------------------------------
+Configured tasks: 20
+Task properties : heterogeneous input profiles; execution mode decided automatically
+DATASET PATH VERIFIED: C:\Users\HUAWEI\Documents\Project_2026\MEC_offloading_Project\C20.json
+TASK SOURCE | task=1 | user=11 | cluster=2
+TASK SOURCE | task=2 | user=11 | cluster=2
+TASK SOURCE | task=3 | user=2 | cluster=1
+TASK SOURCE | task=4 | user=12 | cluster=2
+TASK SOURCE | task=5 | user=3 | cluster=1
+TASK SOURCE | task=6 | user=13 | cluster=2
+TASK SOURCE | task=7 | user=4 | cluster=1
+TASK SOURCE | task=8 | user=14 | cluster=2
+TASK SOURCE | task=9 | user=5 | cluster=1
+TASK SOURCE | task=10 | user=5 | cluster=1
+TASK SOURCE | task=11 | user=6 | cluster=1
+TASK SOURCE | task=12 | user=16 | cluster=2
+TASK SOURCE | task=13 | user=7 | cluster=1
+TASK SOURCE | task=14 | user=17 | cluster=2
+TASK SOURCE | task=15 | user=8 | cluster=1
+TASK SOURCE | task=16 | user=18 | cluster=2
+TASK SOURCE | task=17 | user=9 | cluster=1
+TASK SOURCE | task=18 | user=19 | cluster=2
+TASK SOURCE | task=19 | user=10 | cluster=1
+TASK SOURCE | task=20 | user=20 | cluster=2
+GLOBAL VALIDATION INPUT | Task 10 memory_required=18000 MB
+MOBILITY TRACE VERIFIED: 20 users; minimum length=202; simulation max steps=200
+==============================================================================================================
+EDGE SIMPY DATASET INITIALIZED SUCCESSFULLY
+==============================================================================================================
+
+Infrastructure Summary
+--------------------------------------------------------------------------------------------------------------
+EdgeServer objects : 22
+Users              : 20
+Base Stations      : 22
+Network Switches   : 22
+Network Links      : 41
+
+Users
+--------------------------------------------------------------------------------------------------------------
+User 1 | Base Station=21
+User 2 | Base Station=21
+User 3 | Base Station=21
+User 4 | Base Station=21
+User 5 | Base Station=21
+User 6 | Base Station=21
+User 7 | Base Station=21
+User 8 | Base Station=21
+User 9 | Base Station=21
+User 10 | Base Station=21
+User 11 | Base Station=22
+User 12 | Base Station=22
+User 13 | Base Station=22
+User 14 | Base Station=22
+User 15 | Base Station=22
+User 16 | Base Station=22
+User 17 | Base Station=22
+User 18 | Base Station=22
+User 19 | Base Station=22
+User 20 | Base Station=22
+
+SOURCE IOT DEVICE SPECIFICATIONS
+--------------------------------------------------------------------------------------------------------------
+IoT 1 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 2 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 3 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 4 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 5 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 6 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 7 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 8 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 9 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 10 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 11 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 12 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 13 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 14 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 15 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 16 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 17 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 18 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 19 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+IoT 20 | Local CPU Rate=500000000 cycles/s | Remaining Energy=1000.0 J
+Arrival seed=110 | Nominal rate=0.5/s | Arrival probability=0.393469/tick | At most one arrival per 1-second tick (Poisson approximation)
+
+User Network Mapping
+------------------------------------------------------------------------------------------------------------------------
+User 1 | Base Station=21 | Network Switch=21
+User 2 | Base Station=21 | Network Switch=21
+User 3 | Base Station=21 | Network Switch=21
+User 4 | Base Station=21 | Network Switch=21
+User 5 | Base Station=21 | Network Switch=21
+User 6 | Base Station=21 | Network Switch=21
+User 7 | Base Station=21 | Network Switch=21
+User 8 | Base Station=21 | Network Switch=21
+User 9 | Base Station=21 | Network Switch=21
+User 10 | Base Station=21 | Network Switch=21
+User 11 | Base Station=22 | Network Switch=22
+User 12 | Base Station=22 | Network Switch=22
+User 13 | Base Station=22 | Network Switch=22
+User 14 | Base Station=22 | Network Switch=22
+User 15 | Base Station=22 | Network Switch=22
+User 16 | Base Station=22 | Network Switch=22
+User 17 | Base Station=22 | Network Switch=22
+User 18 | Base Station=22 | Network Switch=22
+User 19 | Base Station=22 | Network Switch=22
+User 20 | Base Station=22 | Network Switch=22
+
+Network Links
+----------------------------------------------------------------------------------------------------------------------------------
+Link 1 | 21 <-> 1 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 2 | 21 <-> 2 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 3 | 21 <-> 3 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 4 | 21 <-> 4 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 5 | 21 <-> 5 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 6 | 21 <-> 6 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 7 | 21 <-> 7 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 8 | 21 <-> 8 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 9 | 21 <-> 9 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 10 | 21 <-> 10 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 11 | 22 <-> 11 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 12 | 22 <-> 12 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 13 | 22 <-> 13 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 14 | 22 <-> 14 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 15 | 22 <-> 15 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 16 | 22 <-> 16 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 17 | 22 <-> 17 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 18 | 22 <-> 18 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 19 | 22 <-> 19 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 20 | 22 <-> 20 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 21 | 1 <-> 2 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 22 | 2 <-> 3 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 23 | 3 <-> 4 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 24 | 4 <-> 5 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 25 | 5 <-> 6 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 26 | 6 <-> 7 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 27 | 7 <-> 8 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 28 | 8 <-> 9 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 29 | 9 <-> 10 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 30 | 10 <-> 1 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 31 | 11 <-> 12 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 32 | 12 <-> 13 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 33 | 13 <-> 14 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 34 | 14 <-> 15 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 35 | 15 <-> 16 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 36 | 16 <-> 17 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 37 | 17 <-> 18 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 38 | 18 <-> 19 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 39 | 19 <-> 20 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 40 | 20 <-> 11 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.005 s
+Link 41 | 21 <-> 22 | Bandwidth=12.5 Mbps | Demand=0 Mbps | Delay=0.01 s
+
+Resource Table
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Edge Node 1 | Cluster=1 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1000 J | Remaining Energy=1000 J | Available=True
+Edge Node 2 | Cluster=1 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.4 GHz | f_j=8400000000 cycles/s | F_j_avail=8400000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1200 J | Remaining Energy=1200 J | Available=True
+Edge Node 3 | Cluster=1 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=12800000000 cycles/s | F_j_avail=12800000000 cycles/s | Memory=12288 MB | Memory Demand=0 MB | Available Memory=12288 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 4 | Cluster=1 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.3 GHz | f_j=5200000000 cycles/s | F_j_avail=5200000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=900 J | Remaining Energy=900 J | Available=True
+Edge Node 5 | Cluster=1 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.8 GHz | f_j=14400000000 cycles/s | F_j_avail=14400000000 cycles/s | Memory=12288 MB | Memory Demand=0 MB | Available Memory=12288 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1400 J | Remaining Energy=1400 J | Available=True
+Edge Node 6 | Cluster=1 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.5 GHz | f_j=9000000000 cycles/s | F_j_avail=9000000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1100 J | Remaining Energy=1100 J | Available=True
+Edge Node 7 | Cluster=1 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.7 GHz | f_j=13600000000 cycles/s | F_j_avail=13600000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1600 J | Remaining Energy=1600 J | Available=True
+Edge Node 8 | Cluster=1 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=850 J | Remaining Energy=850 J | Available=True
+Edge Node 9 | Cluster=1 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=9600000000 cycles/s | F_j_avail=9600000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1300 J | Remaining Energy=1300 J | Available=True
+Edge Node 10 | Cluster=1 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=2.0 GHz | f_j=16000000000 cycles/s | F_j_avail=16000000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 11 | Cluster=2 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1000 J | Remaining Energy=1000 J | Available=True
+Edge Node 12 | Cluster=2 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.4 GHz | f_j=8400000000 cycles/s | F_j_avail=8400000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1200 J | Remaining Energy=1200 J | Available=True
+Edge Node 13 | Cluster=2 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=12800000000 cycles/s | F_j_avail=12800000000 cycles/s | Memory=20480 MB | Memory Demand=0 MB | Available Memory=20480 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+Edge Node 14 | Cluster=2 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.3 GHz | f_j=5200000000 cycles/s | F_j_avail=5200000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=900 J | Remaining Energy=900 J | Available=True
+Edge Node 15 | Cluster=2 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.8 GHz | f_j=14400000000 cycles/s | F_j_avail=14400000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1400 J | Remaining Energy=1400 J | Available=True
+Edge Node 16 | Cluster=2 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.5 GHz | f_j=9000000000 cycles/s | F_j_avail=9000000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1100 J | Remaining Energy=1100 J | Available=True
+Edge Node 17 | Cluster=2 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=1.7 GHz | f_j=13600000000 cycles/s | F_j_avail=13600000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1600 J | Remaining Energy=1600 J | Available=True
+Edge Node 18 | Cluster=2 | CPU=4 | CPU Demand=0 | Available CPU=4 | CPU Utilization=0.00 | Processing Capability=1.2 GHz | f_j=4800000000 cycles/s | F_j_avail=4800000000 cycles/s | Memory=4096 MB | Memory Demand=0 MB | Available Memory=4096 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=850 J | Remaining Energy=850 J | Available=True
+Edge Node 19 | Cluster=2 | CPU=6 | CPU Demand=0 | Available CPU=6 | CPU Utilization=0.00 | Processing Capability=1.6 GHz | f_j=9600000000 cycles/s | F_j_avail=9600000000 cycles/s | Memory=8192 MB | Memory Demand=0 MB | Available Memory=8192 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1300 J | Remaining Energy=1300 J | Available=True
+Edge Node 20 | Cluster=2 | CPU=8 | CPU Demand=0 | Available CPU=8 | CPU Utilization=0.00 | Processing Capability=2.0 GHz | f_j=16000000000 cycles/s | F_j_avail=16000000000 cycles/s | Memory=16384 MB | Memory Demand=0 MB | Available Memory=16384 MB | Memory Utilization=0.00 | Disk=131072 MB | Disk Demand=0 MB | Available Disk=131072 MB | Initial Energy=1500 J | Remaining Energy=1500 J | Available=True
+
+Resource Table Summary
+--------------------------------------------------------------------------------------------------------------
+Candidate Edge Nodes : 20
+Available Edge Nodes : 20
+
+Task Configuration
+----------------------------------------------------------------------------------------------------------------------------------
+Total Tasks : 20
+Task 1 | Source User=11 | Workload=250000000 cycles | Memory=1024 MB | Data=1 MB | F_req=41666667 cycles/s | R_th=1.3333 Mbps | Deadline=6 s
+Task 2 | Source User=11 | Workload=1400000000 cycles | Memory=4096 MB | Data=4 MB | F_req=155555556 cycles/s | R_th=3.5556 Mbps | Deadline=9 s
+Task 3 | Source User=2 | Workload=100000000 cycles | Memory=512 MB | Data=3 MB | F_req=20000000 cycles/s | R_th=4.8000 Mbps | Deadline=5 s
+Task 4 | Source User=12 | Workload=650000000 cycles | Memory=3072 MB | Data=3 MB | F_req=72222222 cycles/s | R_th=2.6667 Mbps | Deadline=9 s
+Task 5 | Source User=3 | Workload=900000000 cycles | Memory=4096 MB | Data=6 MB | F_req=75000000 cycles/s | R_th=4.0000 Mbps | Deadline=12 s
+Task 6 | Source User=13 | Workload=450000000 cycles | Memory=14500 MB | Data=2 MB | F_req=15000000 cycles/s | R_th=0.5333 Mbps | Deadline=30 s
+Task 7 | Source User=4 | Workload=1600000000 cycles | Memory=6144 MB | Data=5 MB | F_req=133333333 cycles/s | R_th=3.3333 Mbps | Deadline=12 s
+Task 8 | Source User=14 | Workload=300000000 cycles | Memory=1024 MB | Data=1 MB | F_req=60000000 cycles/s | R_th=1.6000 Mbps | Deadline=5 s
+Task 9 | Source User=5 | Workload=750000000 cycles | Memory=3072 MB | Data=3 MB | F_req=83333333 cycles/s | R_th=2.6667 Mbps | Deadline=9 s
+Task 10 | Source User=5 | Workload=650000000 cycles | Memory=18000 MB | Data=2 MB | F_req=40625000 cycles/s | R_th=1.0000 Mbps | Deadline=16 s
+Task 11 | Source User=6 | Workload=200000000 cycles | Memory=1024 MB | Data=2 MB | F_req=200000000 cycles/s | R_th=16.0000 Mbps | Deadline=1 s
+Task 12 | Source User=16 | Workload=700000000 cycles | Memory=2048 MB | Data=2 MB | F_req=87500000 cycles/s | R_th=2.0000 Mbps | Deadline=8 s
+Task 13 | Source User=7 | Workload=1200000000 cycles | Memory=4096 MB | Data=3 MB | F_req=120000000 cycles/s | R_th=2.4000 Mbps | Deadline=10 s
+Task 14 | Source User=17 | Workload=350000000 cycles | Memory=1024 MB | Data=1 MB | F_req=58333333 cycles/s | R_th=1.3333 Mbps | Deadline=6 s
+Task 15 | Source User=8 | Workload=900000000 cycles | Memory=3072 MB | Data=4 MB | F_req=81818182 cycles/s | R_th=2.9091 Mbps | Deadline=11 s
+Task 16 | Source User=18 | Workload=500000000 cycles | Memory=2048 MB | Data=2 MB | F_req=71428571 cycles/s | R_th=2.2857 Mbps | Deadline=7 s
+Task 17 | Source User=9 | Workload=1100000000 cycles | Memory=4096 MB | Data=4 MB | F_req=91666667 cycles/s | R_th=2.6667 Mbps | Deadline=12 s
+Task 18 | Source User=19 | Workload=450000000 cycles | Memory=1024 MB | Data=1 MB | F_req=75000000 cycles/s | R_th=1.3333 Mbps | Deadline=6 s
+Task 19 | Source User=10 | Workload=1500000000 cycles | Memory=6144 MB | Data=5 MB | F_req=107142857 cycles/s | R_th=2.8571 Mbps | Deadline=14 s
+Task 20 | Source User=20 | Workload=650000000 cycles | Memory=2048 MB | Data=2 MB | F_req=72222222 cycles/s | R_th=1.7778 Mbps | Deadline=9 s
+
+Starting simulation...
+--------------------------------------------------------------------------------------------------------------
+
+==============================================================================================================
+TASK 1 ARRIVAL
+==============================================================================================================
+Arrival Time : 2 s
+Source User  : 11
+Source Cluster       : 2
+SEARCH STAGE | task=1 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 1 | {'decision_ms': 2.378900011535734, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 17, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=18 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 1, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.0032999669201672077, 'preselection_revalidation_ms': 0.0, 'selection_ms': 2.3836000473238528, 'final_verification_ms': 0.07070001447573304, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 2.457600028719753}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 1 | Source User = 11 | Source Cluster = 2 | Selected Edge Node = 18 | Target Cluster = 2
+FLOW AUDIT CREATE | Task 1 | current_step=2 | start=2
+Task 1 | LOCAL | Edge Node 18 | Status=TRANSFERRING | Delay=0.8533s | Energy=0.036000J | CPU=1 | Memory=1024MB | Path=[22, 18]
+FLOW AUDIT END | Task 1 | start=2 | end=2 | order=PASS | status=finished
+Task 1 | Network transfer finished at observed step 3; scheduled modeled processing completion at step 4
+TIMING AUDIT | Task 1 | transfer_handoff=1.000s + processing=1.000s = observed=2.000s | analytical=0.853s | flow_end=2 | handoff=3
+Task 1 | COMPLETED on Edge Node 18 at step 4; released 1 CPU units and 1024 MB
+
+==============================================================================================================
+TASK 2 ARRIVAL
+==============================================================================================================
+Arrival Time : 4 s
+Source User  : 11
+Source Cluster       : 2
+SEARCH STAGE | task=2 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 2 | {'decision_ms': 1.5848000184632838, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 12, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=8 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 2, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.002300017513334751, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.5885999891906977, 'final_verification_ms': 0.11979998089373112, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.7106999875977635}
+
+--------------------------------------------------------------------------------------------------------------
+GLOBAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 2 | Source User = 11 | Source Cluster = 2 | Selected Edge Node = 8 | Target Cluster = 1
+FLOW AUDIT CREATE | Task 2 | current_step=4 | start=4
+Task 2 | GLOBAL | Edge Node 8 | Status=TRANSFERRING | Delay=3.7417s | Energy=0.201600J | CPU=1 | Memory=4096MB | Path=[22, 21, 8]
+
+==============================================================================================================
+TASK 3 ARRIVAL
+==============================================================================================================
+Arrival Time : 6 s
+Source User  : 2
+Source Cluster       : 1
+SEARCH STAGE | task=3 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 3 | {'decision_ms': 1.435499987564981, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 13, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=1 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 3, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.002400018274784088, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.4394000172615051, 'final_verification_ms': 0.05979998968541622, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.5016000252217054}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 3 | Source User = 2 | Source Cluster = 1 | Selected Edge Node = 1 | Target Cluster = 1
+FLOW AUDIT CREATE | Task 3 | current_step=6 | start=6
+Task 3 | LOCAL | Edge Node 1 | Status=TRANSFERRING | Delay=2.0083s | Energy=0.014400J | CPU=1 | Memory=512MB | Path=[21, 1]
+FLOW AUDIT END | Task 2 | start=4 | end=6 | order=PASS | status=finished
+Task 2 | Network transfer finished at observed step 7; scheduled modeled processing completion at step 9
+FLOW AUDIT END | Task 3 | start=6 | end=7 | order=PASS | status=finished
+Task 3 | Network transfer finished at observed step 8; scheduled modeled processing completion at step 9
+
+==============================================================================================================
+TASK 4 ARRIVAL
+==============================================================================================================
+Arrival Time : 8 s
+Source User  : 12
+Source Cluster       : 2
+SEARCH STAGE | task=4 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 4 | {'decision_ms': 1.61650002701208, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 16, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=11 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 4, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.002200016751885414, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.6196999931707978, 'final_verification_ms': 0.06120000034570694, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.6831000102683902}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 4 | Source User = 12 | Source Cluster = 2 | Selected Edge Node = 11 | Target Cluster = 2
+FLOW AUDIT CREATE | Task 4 | current_step=8 | start=8
+Task 4 | LOCAL | Edge Node 11 | Status=TRANSFERRING | Delay=2.4667s | Energy=0.093600J | CPU=1 | Memory=3072MB | Path=[22, 11]
+TIMING AUDIT | Task 2 | transfer_handoff=3.000s + processing=2.000s = observed=5.000s | analytical=3.742s | flow_end=6 | handoff=7
+Task 2 | COMPLETED on Edge Node 8 at step 9; released 1 CPU units and 4096 MB
+TIMING AUDIT | Task 3 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=2.008s | flow_end=7 | handoff=8
+Task 3 | COMPLETED on Edge Node 1 at step 9; released 1 CPU units and 512 MB
+FLOW AUDIT END | Task 4 | start=8 | end=9 | order=PASS | status=finished
+Task 4 | Network transfer finished at observed step 10; scheduled modeled processing completion at step 11
+
+==============================================================================================================
+TASK 5 ARRIVAL
+==============================================================================================================
+Arrival Time : 10 s
+Source User  : 3
+Source Cluster       : 1
+SEARCH STAGE | task=5 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 5 | {'decision_ms': 1.7660000012256205, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 15, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=1 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 5, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.0022999593056738377, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.7695999704301357, 'final_verification_ms': 0.058399979025125504, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.830299908760935}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 5 | Source User = 3 | Source Cluster = 1 | Selected Edge Node = 1 | Target Cluster = 1
+FLOW AUDIT CREATE | Task 5 | current_step=10 | start=10
+Task 5 | LOCAL | Edge Node 1 | Status=TRANSFERRING | Delay=4.5950s | Energy=0.129600J | CPU=1 | Memory=4096MB | Path=[21, 1]
+TIMING AUDIT | Task 4 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=2.467s | flow_end=9 | handoff=10
+Task 4 | COMPLETED on Edge Node 11 at step 11; released 1 CPU units and 3072 MB
+
+==============================================================================================================
+TASK 6 ARRIVAL
+==============================================================================================================
+Arrival Time : 11 s
+Source User  : 13
+Source Cluster       : 2
+SEARCH STAGE | task=6 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 6 | {'decision_ms': 1.8702000379562378, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 18, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=13 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 6, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.0028999638743698597, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.8734000041149557, 'final_verification_ms': 0.058500037994235754, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.9348000059835613}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 6 | Source User = 13 | Source Cluster = 2 | Selected Edge Node = 13 | Target Cluster = 2
+FLOW AUDIT CREATE | Task 6 | current_step=11 | start=11
+Task 6 | LOCAL | Edge Node 13 | Status=TRANSFERRING | Delay=1.5663s | Energy=0.115200J | CPU=1 | Memory=14500MB | Path=[22, 13]
+FLOW AUDIT END | Task 6 | start=11 | end=12 | order=PASS | status=finished
+Task 6 | Network transfer finished at observed step 13; scheduled modeled processing completion at step 14
+FLOW AUDIT END | Task 5 | start=10 | end=13 | order=PASS | status=finished
+Task 5 | Network transfer finished at observed step 14; scheduled modeled processing completion at step 15
+TIMING AUDIT | Task 6 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=1.566s | flow_end=12 | handoff=13
+Task 6 | COMPLETED on Edge Node 13 at step 14; released 1 CPU units and 14500 MB
+
+==============================================================================================================
+TASK 7 ARRIVAL
+==============================================================================================================
+Arrival Time : 14 s
+Source User  : 4
+Source Cluster       : 1
+SEARCH STAGE | task=7 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 7 | {'decision_ms': 1.5776999644003808, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 16, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=11 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 7, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.002200016751885414, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.580999989528209, 'final_verification_ms': 0.1134999911300838, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.6966999974101782}
+
+--------------------------------------------------------------------------------------------------------------
+GLOBAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 7 | Source User = 4 | Source Cluster = 1 | Selected Edge Node = 11 | Target Cluster = 2
+FLOW AUDIT CREATE | Task 7 | current_step=14 | start=14
+Task 7 | GLOBAL | Edge Node 11 | Status=TRANSFERRING | Delay=4.5483s | Energy=0.230400J | CPU=1 | Memory=6144MB | Path=[21, 22, 11]
+TIMING AUDIT | Task 5 | transfer_handoff=4.000s + processing=1.000s = observed=5.000s | analytical=4.595s | flow_end=13 | handoff=14
+Task 5 | COMPLETED on Edge Node 1 at step 15; released 1 CPU units and 4096 MB
+FLOW AUDIT END | Task 7 | start=14 | end=17 | order=PASS | status=finished
+Task 7 | Network transfer finished at observed step 18; scheduled modeled processing completion at step 20
+TIMING AUDIT | Task 7 | transfer_handoff=4.000s + processing=2.000s = observed=6.000s | analytical=4.548s | flow_end=17 | handoff=18
+Task 7 | COMPLETED on Edge Node 11 at step 20; released 1 CPU units and 6144 MB
+
+==============================================================================================================
+TASK 8 ARRIVAL
+==============================================================================================================
+Arrival Time : 20 s
+Source User  : 14
+Source Cluster       : 2
+SEARCH STAGE | task=8 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 8 | {'decision_ms': 1.547600026242435, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 16, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=11 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 8, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.002100015990436077, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.55409995932132, 'final_verification_ms': 0.05659996531903744, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.6127999406307936}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 8 | Source User = 14 | Source Cluster = 2 | Selected Edge Node = 11 | Target Cluster = 2
+FLOW AUDIT CREATE | Task 8 | current_step=20 | start=20
+Task 8 | LOCAL | Edge Node 11 | Status=TRANSFERRING | Delay=0.8950s | Energy=0.043200J | CPU=1 | Memory=1024MB | Path=[22, 11]
+FLOW AUDIT END | Task 8 | start=20 | end=20 | order=PASS | status=finished
+Task 8 | Network transfer finished at observed step 21; scheduled modeled processing completion at step 22
+
+==============================================================================================================
+TASK 9 ARRIVAL
+==============================================================================================================
+Arrival Time : 21 s
+Source User  : 5
+Source Cluster       : 1
+SEARCH STAGE | task=9 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 9 | {'decision_ms': 1.4254000270739198, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 15, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=8 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 9, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.002100015990436077, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.428099989425391, 'final_verification_ms': 0.054500007536262274, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.4847000129520893}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 9 | Source User = 5 | Source Cluster = 1 | Selected Edge Node = 8 | Target Cluster = 1
+FLOW AUDIT CREATE | Task 9 | current_step=21 | start=21
+Task 9 | LOCAL | Edge Node 8 | Status=TRANSFERRING | Delay=2.5500s | Energy=0.108000J | CPU=1 | Memory=3072MB | Path=[21, 8]
+TIMING AUDIT | Task 8 | transfer_handoff=1.000s + processing=1.000s = observed=2.000s | analytical=0.895s | flow_end=20 | handoff=21
+Task 8 | COMPLETED on Edge Node 11 at step 22; released 1 CPU units and 1024 MB
+FLOW AUDIT END | Task 9 | start=21 | end=22 | order=PASS | status=finished
+Task 9 | Network transfer finished at observed step 23; scheduled modeled processing completion at step 24
+TIMING AUDIT | Task 9 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=2.550s | flow_end=22 | handoff=23
+Task 9 | COMPLETED on Edge Node 8 at step 24; released 1 CPU units and 3072 MB
+
+==============================================================================================================
+TASK 10 ARRIVAL
+==============================================================================================================
+Arrival Time : 30 s
+Source User  : 5
+Source Cluster       : 1
+SEARCH STAGE | task=10 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 10 | {'decision_ms': 1.539300021249801, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 15, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=13 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 10, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.00200001522898674, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.5419000410474837, 'final_verification_ms': 0.1023999648168683, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.6463000210933387}
+
+--------------------------------------------------------------------------------------------------------------
+GLOBAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 10 | Source User = 5 | Source Cluster = 1 | Selected Edge Node = 13 | Target Cluster = 2
+FLOW AUDIT CREATE | Task 10 | current_step=30 | start=30
+Task 10 | GLOBAL | Edge Node 13 | Status=TRANSFERRING | Delay=1.7012s | Energy=0.166400J | CPU=1 | Memory=18000MB | Path=[21, 22, 13]
+FLOW AUDIT END | Task 10 | start=30 | end=31 | order=PASS | status=finished
+Task 10 | Network transfer finished at observed step 32; scheduled modeled processing completion at step 33
+
+==============================================================================================================
+TASK 11 ARRIVAL
+==============================================================================================================
+Arrival Time : 32 s
+Source User  : 6
+Source Cluster       : 1
+SEARCH STAGE | task=11 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 11 | {'decision_ms': 1.5153000131249428, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 17, 'fitness_gap': None}
+FINAL VERIFICATION FAILED | node=1 | reason=Analytical delay 1.4517s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=2 | reason=Analytical delay 1.4279s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=3 | reason=Analytical delay 1.4100s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=4 | reason=Analytical delay 1.4388s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=5 | reason=Analytical delay 1.3961s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=6 | reason=Analytical delay 1.4183s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=7 | reason=Analytical delay 1.4026s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=8 | reason=Analytical delay 1.4517s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=9 | reason=Analytical delay 1.4100s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=10 | reason=Analytical delay 1.3850s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=11 | reason=Analytical delay 1.4617s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=12 | reason=Analytical delay 1.4379s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=13 | reason=Analytical delay 1.4200s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=14 | reason=Analytical delay 1.4488s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=15 | reason=Analytical delay 1.4061s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=16 | reason=Analytical delay 1.4283s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=17 | reason=Analytical delay 1.4126s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=18 | reason=Analytical delay 1.4617s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=19 | reason=Analytical delay 1.4200s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FINAL VERIFICATION FAILED | node=20 | reason=Analytical delay 1.3950s or tick estimate 3.0000s exceeds deadline 1.0000s.
+FULL DECISION METRICS | {'task_id': 11, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.0019999570213258266, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.5177000313997269, 'final_verification_ms': 1.285300008021295, 'final_verification_attempts': 20, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 2.8049999964423478}
+NO FEASIBLE EDGE AFTER LOCAL/GLOBAL SEARCH | SOURCE IOT FALLBACK
+SOURCE FEASIBILITY | Task 11 | IoT=6 | CPU=500000000 cycles/s | RAM=2048 MB | RAM_required=1024.0 MB | energy=1000.000000 J | energy_required=0.005000 J | analytical=0.4000s | tick=1.0s | deadline=1.0s | PASS
+SOURCE FEASIBILITY | Task 11 | IoT=6 | CPU=500000000 cycles/s | RAM=2048 MB | RAM_required=1024.0 MB | energy=1000.000000 J | energy_required=0.005000 J | analytical=0.4000s | tick=1.0s | deadline=1.0s | PASS
+SOURCE RESOURCE RESERVED | Task 11 | IoT=6 | CPU=1 | RAM=1024 MB | energy_before=1000.000000 J | energy_after=999.995000 J
+SOURCE IOT SCHEDULED | Task 11 | completion step=33
+SOURCE RESOURCE RELEASED | Task 11 | IoT=6 | CPU=1 | RAM=1024 MB | CPU_demand=0.0 | RAM_demand=0 MB
+SOURCE TIMING AUDIT | Task 11 | arrival=32 | completion=33 | observed=1.000s | analytical=0.400s | deadline=1.0s | met=True
+Task 11 | SOURCE IOT COMPLETED at step 33
+TIMING AUDIT | Task 10 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=1.701s | flow_end=31 | handoff=32
+Task 10 | COMPLETED on Edge Node 13 at step 33; released 1 CPU units and 18000 MB
+
+==============================================================================================================
+TASK 12 ARRIVAL
+==============================================================================================================
+Arrival Time : 36 s
+Source User  : 16
+Source Cluster       : 2
+SEARCH STAGE | task=12 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 12 | {'decision_ms': 1.4570000348612666, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 15, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=1 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 12, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.002100015990436077, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.4594999956898391, 'final_verification_ms': 0.09839999256655574, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.560000004246831}
+
+--------------------------------------------------------------------------------------------------------------
+GLOBAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 12 | Source User = 16 | Source Cluster = 2 | Selected Edge Node = 1 | Target Cluster = 1
+FLOW AUDIT CREATE | Task 12 | current_step=36 | start=36
+Task 12 | GLOBAL | Edge Node 1 | Status=TRANSFERRING | Delay=1.8783s | Energy=0.100800J | CPU=1 | Memory=2048MB | Path=[22, 21, 1]
+
+==============================================================================================================
+TASK 13 ARRIVAL
+==============================================================================================================
+Arrival Time : 37 s
+Source User  : 7
+Source Cluster       : 1
+SEARCH STAGE | task=13 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 13 | {'decision_ms': 1.2469000066630542, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 13, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=4 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 13, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.001800013706088066, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.249199965968728, 'final_verification_ms': 0.05189998773857951, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.3028999674133956}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 13 | Source User = 7 | Source Cluster = 1 | Selected Edge Node = 4 | Target Cluster = 1
+FLOW AUDIT CREATE | Task 13 | current_step=37 | start=37
+Task 13 | LOCAL | Edge Node 4 | Status=TRANSFERRING | Delay=2.8481s | Energy=0.202800J | CPU=1 | Memory=4096MB | Path=[21, 4]
+FLOW AUDIT END | Task 12 | start=36 | end=37 | order=PASS | status=finished
+Task 12 | Network transfer finished at observed step 38; scheduled modeled processing completion at step 39
+
+==============================================================================================================
+TASK 14 ARRIVAL
+==============================================================================================================
+Arrival Time : 38 s
+Source User  : 17
+Source Cluster       : 2
+SEARCH STAGE | task=14 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 14 | {'decision_ms': 1.3828999944962561, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 15, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=18 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 14, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.001900014467537403, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.3916000025346875, 'final_verification_ms': 0.0523999915458262, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.4459000085480511}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 14 | Source User = 17 | Source Cluster = 2 | Selected Edge Node = 18 | Target Cluster = 2
+FLOW AUDIT CREATE | Task 14 | current_step=38 | start=38
+Task 14 | LOCAL | Edge Node 18 | Status=TRANSFERRING | Delay=0.9367s | Energy=0.050400J | CPU=1 | Memory=1024MB | Path=[22, 18]
+TIMING AUDIT | Task 12 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=1.878s | flow_end=37 | handoff=38
+Task 12 | COMPLETED on Edge Node 1 at step 39; released 1 CPU units and 2048 MB
+FLOW AUDIT END | Task 13 | start=37 | end=38 | order=PASS | status=finished
+Task 13 | Network transfer finished at observed step 39; scheduled modeled processing completion at step 40
+FLOW AUDIT END | Task 14 | start=38 | end=38 | order=PASS | status=finished
+Task 14 | Network transfer finished at observed step 39; scheduled modeled processing completion at step 40
+TIMING AUDIT | Task 13 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=2.848s | flow_end=38 | handoff=39
+Task 13 | COMPLETED on Edge Node 4 at step 40; released 1 CPU units and 4096 MB
+TIMING AUDIT | Task 14 | transfer_handoff=1.000s + processing=1.000s = observed=2.000s | analytical=0.937s | flow_end=38 | handoff=39
+Task 14 | COMPLETED on Edge Node 18 at step 40; released 1 CPU units and 1024 MB
+
+==============================================================================================================
+TASK 15 ARRIVAL
+==============================================================================================================
+Arrival Time : 42 s
+Source User  : 8
+Source Cluster       : 1
+SEARCH STAGE | task=15 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 15 | {'decision_ms': 1.4093000208958983, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 17, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=8 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 15, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.001900014467537403, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.4119999832473695, 'final_verification_ms': 0.04930002614855766, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.4632000238634646}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 15 | Source User = 8 | Source Cluster = 1 | Selected Edge Node = 8 | Target Cluster = 1
+FLOW AUDIT CREATE | Task 15 | current_step=42 | start=42
+Task 15 | LOCAL | Edge Node 8 | Status=TRANSFERRING | Delay=3.3150s | Energy=0.129600J | CPU=1 | Memory=3072MB | Path=[21, 8]
+
+==============================================================================================================
+TASK 16 ARRIVAL
+==============================================================================================================
+Arrival Time : 43 s
+Source User  : 18
+Source Cluster       : 2
+SEARCH STAGE | task=16 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 16 | {'decision_ms': 1.3110999716445804, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 16, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=18 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 16, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.001800013706088066, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.3131999876350164, 'final_verification_ms': 0.049399968702346087, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.3643999700434506}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 16 | Source User = 18 | Source Cluster = 2 | Selected Edge Node = 18 | Target Cluster = 2
+FLOW AUDIT CREATE | Task 16 | current_step=43 | start=43
+Task 16 | LOCAL | Edge Node 18 | Status=TRANSFERRING | Delay=1.7017s | Energy=0.072000J | CPU=1 | Memory=2048MB | Path=[22, 18]
+
+==============================================================================================================
+TASK 17 ARRIVAL
+==============================================================================================================
+Arrival Time : 44 s
+Source User  : 9
+Source Cluster       : 1
+SEARCH STAGE | task=17 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 17 | {'decision_ms': 1.3089000131003559, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 16, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=1 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 17, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.0016999547369778156, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.31130003137514, 'final_verification_ms': 0.04539999645203352, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.3583999825641513}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 17 | Source User = 9 | Source Cluster = 1 | Selected Edge Node = 1 | Target Cluster = 1
+FLOW AUDIT CREATE | Task 17 | current_step=44 | start=44
+Task 17 | LOCAL | Edge Node 1 | Status=TRANSFERRING | Delay=3.4817s | Energy=0.158400J | CPU=1 | Memory=4096MB | Path=[21, 1]
+FLOW AUDIT END | Task 15 | start=42 | end=44 | order=PASS | status=finished
+Task 15 | Network transfer finished at observed step 45; scheduled modeled processing completion at step 46
+FLOW AUDIT END | Task 16 | start=43 | end=44 | order=PASS | status=finished
+Task 16 | Network transfer finished at observed step 45; scheduled modeled processing completion at step 46
+TIMING AUDIT | Task 15 | transfer_handoff=3.000s + processing=1.000s = observed=4.000s | analytical=3.315s | flow_end=44 | handoff=45
+Task 15 | COMPLETED on Edge Node 8 at step 46; released 1 CPU units and 3072 MB
+TIMING AUDIT | Task 16 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=1.702s | flow_end=44 | handoff=45
+Task 16 | COMPLETED on Edge Node 18 at step 46; released 1 CPU units and 2048 MB
+
+==============================================================================================================
+TASK 18 ARRIVAL
+==============================================================================================================
+Arrival Time : 46 s
+Source User  : 19
+Source Cluster       : 2
+SEARCH STAGE | task=18 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 18 | {'decision_ms': 1.4479999663308263, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 18, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=11 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 18, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.001800013706088066, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.450599986128509, 'final_verification_ms': 0.04710000939667225, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.4995000092312694}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 18 | Source User = 19 | Source Cluster = 2 | Selected Edge Node = 11 | Target Cluster = 2
+FLOW AUDIT CREATE | Task 18 | current_step=46 | start=46
+Task 18 | LOCAL | Edge Node 11 | Status=TRANSFERRING | Delay=1.0200s | Energy=0.064800J | CPU=1 | Memory=1024MB | Path=[22, 11]
+FLOW AUDIT END | Task 17 | start=44 | end=46 | order=PASS | status=finished
+Task 17 | Network transfer finished at observed step 47; scheduled modeled processing completion at step 48
+FLOW AUDIT END | Task 18 | start=46 | end=46 | order=PASS | status=finished
+Task 18 | Network transfer finished at observed step 47; scheduled modeled processing completion at step 48
+TIMING AUDIT | Task 17 | transfer_handoff=3.000s + processing=1.000s = observed=4.000s | analytical=3.482s | flow_end=46 | handoff=47
+Task 17 | COMPLETED on Edge Node 1 at step 48; released 1 CPU units and 4096 MB
+TIMING AUDIT | Task 18 | transfer_handoff=1.000s + processing=1.000s = observed=2.000s | analytical=1.020s | flow_end=46 | handoff=47
+Task 18 | COMPLETED on Edge Node 11 at step 48; released 1 CPU units and 1024 MB
+
+==============================================================================================================
+TASK 19 ARRIVAL
+==============================================================================================================
+Arrival Time : 52 s
+Source User  : 10
+Source Cluster       : 1
+SEARCH STAGE | task=19 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 19 | {'decision_ms': 1.4253999688662589, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 17, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=1 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 19, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.001700012944638729, 'preselection_revalidation_ms': 0.0, 'selection_ms': 1.4279999886639416, 'final_verification_ms': 0.045900000259280205, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 1.4756000018678606}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 19 | Source User = 10 | Source Cluster = 1 | Selected Edge Node = 1 | Target Cluster = 1
+FLOW AUDIT CREATE | Task 19 | current_step=52 | start=52
+Task 19 | LOCAL | Edge Node 1 | Status=TRANSFERRING | Delay=4.4550s | Energy=0.216000J | CPU=1 | Memory=6144MB | Path=[21, 1]
+FLOW AUDIT END | Task 19 | start=52 | end=55 | order=PASS | status=finished
+Task 19 | Network transfer finished at observed step 56; scheduled modeled processing completion at step 58
+
+==============================================================================================================
+TASK 20 ARRIVAL
+==============================================================================================================
+Arrival Time : 56 s
+Source User  : 20
+Source Cluster       : 2
+SEARCH STAGE | task=20 | stage=NETWORK_WIDE | candidates=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+SELECTION METRICS | Task 20 | {'decision_ms': 19.165100005920976, 'fitness_evaluations': 50, 'unique_fitness_evaluations': 15, 'fitness_gap': None}
+FINAL VERIFICATION PASSED | node=11 | stage=NETWORK_WIDE
+FULL DECISION METRICS | {'task_id': 20, 'method': 'gwo_no_filter', 'edge_nodes_before': 20, 'candidates_after_preselection': 20, 'candidates_after_checking': 20, 'preselection_ms': 0.0018999562598764896, 'preselection_revalidation_ms': 0.0, 'selection_ms': 19.168200029525906, 'final_verification_ms': 0.06330001633614302, 'final_verification_attempts': 1, 'preliminary_filtering_used': False, 'preselection_revalidation_used': False, 'search_stages': ['NETWORK_WIDE'], 'global_expansion_used': False, 'total_decision_ms': 19.233400002121925}
+
+--------------------------------------------------------------------------------------------------------------
+LOCAL OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Task 20 | Source User = 20 | Source Cluster = 2 | Selected Edge Node = 11 | Target Cluster = 2
+FLOW AUDIT CREATE | Task 20 | current_step=56 | start=56
+Task 20 | LOCAL | Edge Node 11 | Status=TRANSFERRING | Delay=1.8267s | Energy=0.093600J | CPU=1 | Memory=2048MB | Path=[22, 11]
+TIMING AUDIT | Task 19 | transfer_handoff=4.000s + processing=2.000s = observed=6.000s | analytical=4.455s | flow_end=55 | handoff=56
+Task 19 | COMPLETED on Edge Node 1 at step 58; released 1 CPU units and 6144 MB
+FLOW AUDIT END | Task 20 | start=56 | end=57 | order=PASS | status=finished
+Task 20 | Network transfer finished at observed step 58; scheduled modeled processing completion at step 59
+TIMING AUDIT | Task 20 | transfer_handoff=2.000s + processing=1.000s = observed=3.000s | analytical=1.827s | flow_end=57 | handoff=58
+Task 20 | COMPLETED on Edge Node 11 at step 59; released 1 CPU units and 2048 MB
+
+==============================================================================================================
+FINAL FILTERING / OFFLOADING SUMMARY
+==============================================================================================================
+Task 1 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 2 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 3 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 4 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 5 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 6 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 7 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 8 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 9 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 10 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 11 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 12 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 13 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 14 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 15 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 16 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 17 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 18 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 19 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Task 20 | Feasible Candidates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+OFFLOADING SUMMARY
+--------------------------------------------------------------------------------------------------------------
+Task 1 | Type=LOCAL_OFFLOADING | Source User=11 | Edge Node=18 | Status=COMPLETED | Total Delay=0.8533 s | Computation Energy=0.036000 J
+  Timing: analytical=0.8533333333333334s | observed=2.0s | deadline met=True | completed at step=4
+Task 2 | Type=GLOBAL_OFFLOADING | Source User=11 | Edge Node=8 | Status=COMPLETED | Total Delay=3.7417 s | Computation Energy=0.201600 J
+  Timing: analytical=3.7416666666666667s | observed=5.0s | deadline met=True | completed at step=9
+Task 3 | Type=LOCAL_OFFLOADING | Source User=2 | Edge Node=1 | Status=COMPLETED | Total Delay=2.0083 s | Computation Energy=0.014400 J
+  Timing: analytical=2.0083333333333333s | observed=3.0s | deadline met=True | completed at step=9
+Task 4 | Type=LOCAL_OFFLOADING | Source User=12 | Edge Node=11 | Status=COMPLETED | Total Delay=2.4667 s | Computation Energy=0.093600 J
+  Timing: analytical=2.466666666666667s | observed=3.0s | deadline met=True | completed at step=11
+Task 5 | Type=LOCAL_OFFLOADING | Source User=3 | Edge Node=1 | Status=COMPLETED | Total Delay=4.5950 s | Computation Energy=0.129600 J
+  Timing: analytical=4.595s | observed=5.0s | deadline met=True | completed at step=15
+Task 6 | Type=LOCAL_OFFLOADING | Source User=13 | Edge Node=13 | Status=COMPLETED | Total Delay=1.5663 s | Computation Energy=0.115200 J
+  Timing: analytical=1.5662500000000001s | observed=3.0s | deadline met=True | completed at step=14
+Task 7 | Type=GLOBAL_OFFLOADING | Source User=4 | Edge Node=11 | Status=COMPLETED | Total Delay=4.5483 s | Computation Energy=0.230400 J
+  Timing: analytical=4.548333333333334s | observed=6.0s | deadline met=True | completed at step=20
+Task 8 | Type=LOCAL_OFFLOADING | Source User=14 | Edge Node=11 | Status=COMPLETED | Total Delay=0.8950 s | Computation Energy=0.043200 J
+  Timing: analytical=0.895s | observed=2.0s | deadline met=True | completed at step=22
+Task 9 | Type=LOCAL_OFFLOADING | Source User=5 | Edge Node=8 | Status=COMPLETED | Total Delay=2.5500 s | Computation Energy=0.108000 J
+  Timing: analytical=2.55s | observed=3.0s | deadline met=True | completed at step=24
+Task 10 | Type=GLOBAL_OFFLOADING | Source User=5 | Edge Node=13 | Status=COMPLETED | Total Delay=1.7012 s | Computation Energy=0.166400 J
+  Timing: analytical=1.70125s | observed=3.0s | deadline met=True | completed at step=33
+Task 11 | Type=SOURCE_IOT | Source User=6 | Source IoT=6 | Status=COMPLETED_LOCALLY | Total Delay=0.4000 s | Computation Energy=0.005000 J
+  Timing: analytical=0.4s | observed=1.0s | deadline met=True | completed at step=33
+Task 12 | Type=GLOBAL_OFFLOADING | Source User=16 | Edge Node=1 | Status=COMPLETED | Total Delay=1.8783 s | Computation Energy=0.100800 J
+  Timing: analytical=1.8783333333333334s | observed=3.0s | deadline met=True | completed at step=39
+Task 13 | Type=LOCAL_OFFLOADING | Source User=7 | Edge Node=4 | Status=COMPLETED | Total Delay=2.8481 s | Computation Energy=0.202800 J
+  Timing: analytical=2.848076923076923s | observed=3.0s | deadline met=True | completed at step=40
+Task 14 | Type=LOCAL_OFFLOADING | Source User=17 | Edge Node=18 | Status=COMPLETED | Total Delay=0.9367 s | Computation Energy=0.050400 J
+  Timing: analytical=0.9366666666666668s | observed=2.0s | deadline met=True | completed at step=40
+Task 15 | Type=LOCAL_OFFLOADING | Source User=8 | Edge Node=8 | Status=COMPLETED | Total Delay=3.3150 s | Computation Energy=0.129600 J
+  Timing: analytical=3.315s | observed=4.0s | deadline met=True | completed at step=46
+Task 16 | Type=LOCAL_OFFLOADING | Source User=18 | Edge Node=18 | Status=COMPLETED | Total Delay=1.7017 s | Computation Energy=0.072000 J
+  Timing: analytical=1.7016666666666667s | observed=3.0s | deadline met=True | completed at step=46
+Task 17 | Type=LOCAL_OFFLOADING | Source User=9 | Edge Node=1 | Status=COMPLETED | Total Delay=3.4817 s | Computation Energy=0.158400 J
+  Timing: analytical=3.4816666666666665s | observed=4.0s | deadline met=True | completed at step=48
+Task 18 | Type=LOCAL_OFFLOADING | Source User=19 | Edge Node=11 | Status=COMPLETED | Total Delay=1.0200 s | Computation Energy=0.064800 J
+  Timing: analytical=1.02s | observed=2.0s | deadline met=True | completed at step=48
+Task 19 | Type=LOCAL_OFFLOADING | Source User=10 | Edge Node=1 | Status=COMPLETED | Total Delay=4.4550 s | Computation Energy=0.216000 J
+  Timing: analytical=4.455s | observed=6.0s | deadline met=True | completed at step=58
+Task 20 | Type=LOCAL_OFFLOADING | Source User=20 | Edge Node=11 | Status=COMPLETED | Total Delay=1.8267 s | Computation Energy=0.093600 J
+  Timing: analytical=1.8266666666666667s | observed=3.0s | deadline met=True | completed at step=59
+
+
+AUTOMATIC EXECUTION COUNTS | LOCAL_OFFLOADING=15 | GLOBAL_OFFLOADING=4 | SOURCE_IOT=1 | REJECTED=0
+TASK ARRIVAL / EXECUTION ACCOUNTING
+--------------------------------------------------------------------------------------------------------------
+Tasks generated         : 20
+Tasks processed         : 20
+Tasks with recorded result: 20
+All generated tasks reached the processing pipeline.
+
+FINAL RESOURCE STATE AFTER OFFLOADING
+--------------------------------------------------------------------------------------------------------------
+Node 1 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=999.380800 J | Available=True
+Node 2 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1200.000000 J | Available=True
+Node 3 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=12288 MB | Remaining Energy=1500.000000 J | Available=True
+Node 4 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=899.797200 J | Available=True
+Node 5 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=12288 MB | Remaining Energy=1400.000000 J | Available=True
+Node 6 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1100.000000 J | Available=True
+Node 7 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1600.000000 J | Available=True
+Node 8 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=849.560800 J | Available=True
+Node 9 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1300.000000 J | Available=True
+Node 10 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+Node 11 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=999.474400 J | Available=True
+Node 12 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1200.000000 J | Available=True
+Node 13 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=20480 MB | Remaining Energy=1499.718400 J | Available=True
+Node 14 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=900.000000 J | Available=True
+Node 15 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1400.000000 J | Available=True
+Node 16 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1100.000000 J | Available=True
+Node 17 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1600.000000 J | Available=True
+Node 18 | CPU Demand=0 | Available CPU=4 | Memory Demand=0 MB | Available Memory=4096 MB | Remaining Energy=849.841600 J | Available=True
+Node 19 | CPU Demand=0 | Available CPU=6 | Memory Demand=0 MB | Available Memory=8192 MB | Remaining Energy=1300.000000 J | Available=True
+Node 20 | CPU Demand=0 | Available CPU=8 | Memory Demand=0 MB | Available Memory=16384 MB | Remaining Energy=1500.000000 J | Available=True
+
+==============================================================================================================
+SIMULATION COMPLETED
+==============================================================================================================
+EXPERIMENT JSON: C:\Users\HUAWEI\Documents\Project_2026\MEC_offloading_Project\trial_results\direct_robustness_20261122_181336_940744\C20_gwo_no_filter_s110_r1.json

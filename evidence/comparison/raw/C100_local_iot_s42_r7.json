@@ -1,0 +1,719 @@
+{
+  "method": "local_iot",
+  "seed": 42,
+  "wolves": 10,
+  "iterations": 5,
+  "weights": [
+    0.4,
+    0.4,
+    0.2
+  ],
+  "tasks": [
+    {
+      "task_id": 1,
+      "status": "COMPLETED_LOCALLY",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": 0.5,
+      "observed_delay_s": 1.0,
+      "computation_energy_j": 0.0062499999999999995,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.0062499999999999995,
+      "total_system_energy_j": 0.0062499999999999995,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_processing_rate_cycles_s": 500000000.0,
+        "source_memory_assumption_mb": 2048.0,
+        "source_reserved_cpu_units": 1,
+        "source_reserved_memory_mb": 1024.0,
+        "source_cpu_demand_before": 0.0,
+        "source_cpu_demand_after_reservation": 1.0,
+        "source_memory_demand_before_mb": 0.0,
+        "source_memory_demand_after_reservation_mb": 1024.0,
+        "source_energy_before_j": 1000.0,
+        "source_energy_after_reservation_j": 999.99375,
+        "source_resources_released": true,
+        "source_resource_release_step": 3,
+        "source_cpu_demand_after_release": 0.0,
+        "source_memory_demand_after_release_mb": 0.0,
+        "source_energy_at_completion_j": 999.99375
+      }
+    },
+    {
+      "task_id": 2,
+      "status": "REJECTED",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": Infinity,
+      "observed_delay_s": null,
+      "computation_energy_j": 0.0,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.0,
+      "total_system_energy_j": 0.0,
+      "deadline_met": false,
+      "rejection_reason": "Local IoT execution infeasible: SOURCE_MEMORY",
+      "source_resource_audit": {}
+    },
+    {
+      "task_id": 3,
+      "status": "COMPLETED_LOCALLY",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": 0.2,
+      "observed_delay_s": 1.0,
+      "computation_energy_j": 0.0025,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.0025,
+      "total_system_energy_j": 0.0025,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_processing_rate_cycles_s": 500000000.0,
+        "source_memory_assumption_mb": 2048.0,
+        "source_reserved_cpu_units": 1,
+        "source_reserved_memory_mb": 512.0,
+        "source_cpu_demand_before": 0.0,
+        "source_cpu_demand_after_reservation": 1.0,
+        "source_memory_demand_before_mb": 0.0,
+        "source_memory_demand_after_reservation_mb": 512.0,
+        "source_energy_before_j": 1000.0,
+        "source_energy_after_reservation_j": 999.9975,
+        "source_resources_released": true,
+        "source_resource_release_step": 5,
+        "source_cpu_demand_after_release": 0.0,
+        "source_memory_demand_after_release_mb": 0.0,
+        "source_energy_at_completion_j": 999.9975
+      }
+    },
+    {
+      "task_id": 4,
+      "status": "REJECTED",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": Infinity,
+      "observed_delay_s": null,
+      "computation_energy_j": 0.0,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.0,
+      "total_system_energy_j": 0.0,
+      "deadline_met": false,
+      "rejection_reason": "Local IoT execution infeasible: SOURCE_MEMORY",
+      "source_resource_audit": {}
+    },
+    {
+      "task_id": 5,
+      "status": "REJECTED",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": Infinity,
+      "observed_delay_s": null,
+      "computation_energy_j": 0.0,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.0,
+      "total_system_energy_j": 0.0,
+      "deadline_met": false,
+      "rejection_reason": "Local IoT execution infeasible: SOURCE_MEMORY",
+      "source_resource_audit": {}
+    },
+    {
+      "task_id": 6,
+      "status": "REJECTED",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": Infinity,
+      "observed_delay_s": null,
+      "computation_energy_j": 0.0,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.0,
+      "total_system_energy_j": 0.0,
+      "deadline_met": false,
+      "rejection_reason": "Local IoT execution infeasible: SOURCE_MEMORY",
+      "source_resource_audit": {}
+    },
+    {
+      "task_id": 7,
+      "status": "REJECTED",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": Infinity,
+      "observed_delay_s": null,
+      "computation_energy_j": 0.0,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.0,
+      "total_system_energy_j": 0.0,
+      "deadline_met": false,
+      "rejection_reason": "Local IoT execution infeasible: SOURCE_MEMORY",
+      "source_resource_audit": {}
+    },
+    {
+      "task_id": 8,
+      "status": "COMPLETED_LOCALLY",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": 0.6,
+      "observed_delay_s": 1.0,
+      "computation_energy_j": 0.007499999999999999,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.007499999999999999,
+      "total_system_energy_j": 0.007499999999999999,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_processing_rate_cycles_s": 500000000.0,
+        "source_memory_assumption_mb": 2048.0,
+        "source_reserved_cpu_units": 1,
+        "source_reserved_memory_mb": 1024.0,
+        "source_cpu_demand_before": 0.0,
+        "source_cpu_demand_after_reservation": 1.0,
+        "source_memory_demand_before_mb": 0.0,
+        "source_memory_demand_after_reservation_mb": 1024.0,
+        "source_energy_before_j": 1000.0,
+        "source_energy_after_reservation_j": 999.9925,
+        "source_resources_released": true,
+        "source_resource_release_step": 15,
+        "source_cpu_demand_after_release": 0.0,
+        "source_memory_demand_after_release_mb": 0.0,
+        "source_energy_at_completion_j": 999.9925
+      }
+    },
+    {
+      "task_id": 9,
+      "status": "REJECTED",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": Infinity,
+      "observed_delay_s": null,
+      "computation_energy_j": 0.0,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.0,
+      "total_system_energy_j": 0.0,
+      "deadline_met": false,
+      "rejection_reason": "Local IoT execution infeasible: SOURCE_MEMORY",
+      "source_resource_audit": {}
+    },
+    {
+      "task_id": 10,
+      "status": "REJECTED",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": Infinity,
+      "observed_delay_s": null,
+      "computation_energy_j": 0.0,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.0,
+      "total_system_energy_j": 0.0,
+      "deadline_met": false,
+      "rejection_reason": "Local IoT execution infeasible: SOURCE_MEMORY",
+      "source_resource_audit": {}
+    },
+    {
+      "task_id": 11,
+      "status": "COMPLETED_LOCALLY",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": 0.4,
+      "observed_delay_s": 1.0,
+      "computation_energy_j": 0.005,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.005,
+      "total_system_energy_j": 0.005,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_processing_rate_cycles_s": 500000000.0,
+        "source_memory_assumption_mb": 2048.0,
+        "source_reserved_cpu_units": 1,
+        "source_reserved_memory_mb": 1024.0,
+        "source_cpu_demand_before": 0.0,
+        "source_cpu_demand_after_reservation": 1.0,
+        "source_memory_demand_before_mb": 0.0,
+        "source_memory_demand_after_reservation_mb": 1024.0,
+        "source_energy_before_j": 1000.0,
+        "source_energy_after_reservation_j": 999.995,
+        "source_resources_released": true,
+        "source_resource_release_step": 24,
+        "source_cpu_demand_after_release": 0.0,
+        "source_memory_demand_after_release_mb": 0.0,
+        "source_energy_at_completion_j": 999.995
+      }
+    },
+    {
+      "task_id": 12,
+      "status": "COMPLETED_LOCALLY",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": 1.4,
+      "observed_delay_s": 2.0,
+      "computation_energy_j": 0.0175,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.0175,
+      "total_system_energy_j": 0.0175,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_processing_rate_cycles_s": 500000000.0,
+        "source_memory_assumption_mb": 2048.0,
+        "source_reserved_cpu_units": 1,
+        "source_reserved_memory_mb": 2048.0,
+        "source_cpu_demand_before": 0.0,
+        "source_cpu_demand_after_reservation": 1.0,
+        "source_memory_demand_before_mb": 0.0,
+        "source_memory_demand_after_reservation_mb": 2048.0,
+        "source_energy_before_j": 1000.0,
+        "source_energy_after_reservation_j": 999.9825,
+        "source_resources_released": true,
+        "source_resource_release_step": 26,
+        "source_cpu_demand_after_release": 0.0,
+        "source_memory_demand_after_release_mb": 0.0,
+        "source_energy_at_completion_j": 999.9825
+      }
+    },
+    {
+      "task_id": 13,
+      "status": "REJECTED",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": Infinity,
+      "observed_delay_s": null,
+      "computation_energy_j": 0.0,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.0,
+      "total_system_energy_j": 0.0,
+      "deadline_met": false,
+      "rejection_reason": "Local IoT execution infeasible: SOURCE_MEMORY",
+      "source_resource_audit": {}
+    },
+    {
+      "task_id": 14,
+      "status": "COMPLETED_LOCALLY",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": 0.7,
+      "observed_delay_s": 1.0,
+      "computation_energy_j": 0.00875,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.00875,
+      "total_system_energy_j": 0.00875,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_processing_rate_cycles_s": 500000000.0,
+        "source_memory_assumption_mb": 2048.0,
+        "source_reserved_cpu_units": 1,
+        "source_reserved_memory_mb": 1024.0,
+        "source_cpu_demand_before": 0.0,
+        "source_cpu_demand_after_reservation": 1.0,
+        "source_memory_demand_before_mb": 0.0,
+        "source_memory_demand_after_reservation_mb": 1024.0,
+        "source_energy_before_j": 1000.0,
+        "source_energy_after_reservation_j": 999.99125,
+        "source_resources_released": true,
+        "source_resource_release_step": 28,
+        "source_cpu_demand_after_release": 0.0,
+        "source_memory_demand_after_release_mb": 0.0,
+        "source_energy_at_completion_j": 999.99125
+      }
+    },
+    {
+      "task_id": 15,
+      "status": "REJECTED",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": Infinity,
+      "observed_delay_s": null,
+      "computation_energy_j": 0.0,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.0,
+      "total_system_energy_j": 0.0,
+      "deadline_met": false,
+      "rejection_reason": "Local IoT execution infeasible: SOURCE_MEMORY",
+      "source_resource_audit": {}
+    },
+    {
+      "task_id": 16,
+      "status": "COMPLETED_LOCALLY",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": 1.0,
+      "observed_delay_s": 1.0,
+      "computation_energy_j": 0.012499999999999999,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.012499999999999999,
+      "total_system_energy_j": 0.012499999999999999,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_processing_rate_cycles_s": 500000000.0,
+        "source_memory_assumption_mb": 2048.0,
+        "source_reserved_cpu_units": 1,
+        "source_reserved_memory_mb": 2048.0,
+        "source_cpu_demand_before": 0.0,
+        "source_cpu_demand_after_reservation": 1.0,
+        "source_memory_demand_before_mb": 0.0,
+        "source_memory_demand_after_reservation_mb": 2048.0,
+        "source_energy_before_j": 1000.0,
+        "source_energy_after_reservation_j": 999.9875,
+        "source_resources_released": true,
+        "source_resource_release_step": 36,
+        "source_cpu_demand_after_release": 0.0,
+        "source_memory_demand_after_release_mb": 0.0,
+        "source_energy_at_completion_j": 999.9875
+      }
+    },
+    {
+      "task_id": 17,
+      "status": "REJECTED",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": Infinity,
+      "observed_delay_s": null,
+      "computation_energy_j": 0.0,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.0,
+      "total_system_energy_j": 0.0,
+      "deadline_met": false,
+      "rejection_reason": "Local IoT execution infeasible: SOURCE_MEMORY",
+      "source_resource_audit": {}
+    },
+    {
+      "task_id": 18,
+      "status": "COMPLETED_LOCALLY",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": 0.9,
+      "observed_delay_s": 1.0,
+      "computation_energy_j": 0.01125,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.01125,
+      "total_system_energy_j": 0.01125,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_processing_rate_cycles_s": 500000000.0,
+        "source_memory_assumption_mb": 2048.0,
+        "source_reserved_cpu_units": 1,
+        "source_reserved_memory_mb": 1024.0,
+        "source_cpu_demand_before": 0.0,
+        "source_cpu_demand_after_reservation": 1.0,
+        "source_memory_demand_before_mb": 0.0,
+        "source_memory_demand_after_reservation_mb": 1024.0,
+        "source_energy_before_j": 1000.0,
+        "source_energy_after_reservation_j": 999.98875,
+        "source_resources_released": true,
+        "source_resource_release_step": 44,
+        "source_cpu_demand_after_release": 0.0,
+        "source_memory_demand_after_release_mb": 0.0,
+        "source_energy_at_completion_j": 999.98875
+      }
+    },
+    {
+      "task_id": 19,
+      "status": "REJECTED",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": Infinity,
+      "observed_delay_s": null,
+      "computation_energy_j": 0.0,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.0,
+      "total_system_energy_j": 0.0,
+      "deadline_met": false,
+      "rejection_reason": "Local IoT execution infeasible: SOURCE_MEMORY",
+      "source_resource_audit": {}
+    },
+    {
+      "task_id": 20,
+      "status": "COMPLETED_LOCALLY",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": 1.3,
+      "observed_delay_s": 2.0,
+      "computation_energy_j": 0.01625,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.01625,
+      "total_system_energy_j": 0.01625,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_processing_rate_cycles_s": 500000000.0,
+        "source_memory_assumption_mb": 2048.0,
+        "source_reserved_cpu_units": 1,
+        "source_reserved_memory_mb": 2048.0,
+        "source_cpu_demand_before": 0.0,
+        "source_cpu_demand_after_reservation": 1.0,
+        "source_memory_demand_before_mb": 0.0,
+        "source_memory_demand_after_reservation_mb": 2048.0,
+        "source_energy_before_j": 1000.0,
+        "source_energy_after_reservation_j": 999.98375,
+        "source_resources_released": true,
+        "source_resource_release_step": 47,
+        "source_cpu_demand_after_release": 0.0,
+        "source_memory_demand_after_release_mb": 0.0,
+        "source_energy_at_completion_j": 999.98375
+      }
+    }
+  ],
+  "decisions": [],
+  "full_decisions": [],
+  "task_count": 20,
+  "processed": 20,
+  "arrival_seed": 42,
+  "arrival_trace": [
+    {
+      "task_id": 1,
+      "arrival_step": 2
+    },
+    {
+      "task_id": 2,
+      "arrival_step": 3
+    },
+    {
+      "task_id": 3,
+      "arrival_step": 4
+    },
+    {
+      "task_id": 4,
+      "arrival_step": 8
+    },
+    {
+      "task_id": 5,
+      "arrival_step": 10
+    },
+    {
+      "task_id": 6,
+      "arrival_step": 11
+    },
+    {
+      "task_id": 7,
+      "arrival_step": 13
+    },
+    {
+      "task_id": 8,
+      "arrival_step": 14
+    },
+    {
+      "task_id": 9,
+      "arrival_step": 17
+    },
+    {
+      "task_id": 10,
+      "arrival_step": 20
+    },
+    {
+      "task_id": 11,
+      "arrival_step": 23
+    },
+    {
+      "task_id": 12,
+      "arrival_step": 24
+    },
+    {
+      "task_id": 13,
+      "arrival_step": 26
+    },
+    {
+      "task_id": 14,
+      "arrival_step": 27
+    },
+    {
+      "task_id": 15,
+      "arrival_step": 28
+    },
+    {
+      "task_id": 16,
+      "arrival_step": 35
+    },
+    {
+      "task_id": 17,
+      "arrival_step": 42
+    },
+    {
+      "task_id": 18,
+      "arrival_step": 43
+    },
+    {
+      "task_id": 19,
+      "arrival_step": 44
+    },
+    {
+      "task_id": 20,
+      "arrival_step": 45
+    }
+  ],
+  "protocol": {
+    "name": "direct_baselines_trial_v1",
+    "proposed_policy": "local-first; preliminary filtering and revalidation; size-dependent DGWO selection",
+    "baseline_policy": "all network-wide edge peers; no preliminary filtering or preselection revalidation",
+    "fitness_policy": "Greedy/PSO/GWO penalize infeasible candidates during evaluation without removing them",
+    "random_policy": "seeded random permutation; final verification without repeated devices",
+    "final_verification": "same verify_candidate_for_execution and offload_task safeguards for all Edge policies",
+    "source_policy": "same modeled source feasibility, scheduling, rejection and release",
+    "timing_scope": "preselection + selection + final Edge verification; excludes resource commit, execution and source-only fallback scheduling",
+    "comparison_scope": "complete policies; not an isolated optimizer comparison"
+  },
+  "task_profiles": [
+    {
+      "task_id": 1,
+      "workload": 250000000,
+      "memory_required": 1024,
+      "data_size": 1,
+      "max_delay": 6,
+      "source_user_id": 91
+    },
+    {
+      "task_id": 2,
+      "workload": 1400000000,
+      "memory_required": 4096,
+      "data_size": 4,
+      "max_delay": 9,
+      "source_user_id": 11
+    },
+    {
+      "task_id": 3,
+      "workload": 100000000,
+      "memory_required": 512,
+      "data_size": 3,
+      "max_delay": 5,
+      "source_user_id": 21
+    },
+    {
+      "task_id": 4,
+      "workload": 650000000,
+      "memory_required": 3072,
+      "data_size": 3,
+      "max_delay": 9,
+      "source_user_id": 31
+    },
+    {
+      "task_id": 5,
+      "workload": 900000000,
+      "memory_required": 4096,
+      "data_size": 6,
+      "max_delay": 12,
+      "source_user_id": 41
+    },
+    {
+      "task_id": 6,
+      "workload": 450000000,
+      "memory_required": 14500,
+      "data_size": 2,
+      "max_delay": 30,
+      "source_user_id": 51
+    },
+    {
+      "task_id": 7,
+      "workload": 1600000000,
+      "memory_required": 6144,
+      "data_size": 5,
+      "max_delay": 12,
+      "source_user_id": 61
+    },
+    {
+      "task_id": 8,
+      "workload": 300000000,
+      "memory_required": 1024,
+      "data_size": 1,
+      "max_delay": 5,
+      "source_user_id": 71
+    },
+    {
+      "task_id": 9,
+      "workload": 750000000,
+      "memory_required": 3072,
+      "data_size": 3,
+      "max_delay": 9,
+      "source_user_id": 81
+    },
+    {
+      "task_id": 10,
+      "workload": 650000000,
+      "memory_required": 18000,
+      "data_size": 2,
+      "max_delay": 16,
+      "source_user_id": 1
+    },
+    {
+      "task_id": 11,
+      "workload": 200000000,
+      "memory_required": 1024,
+      "data_size": 2,
+      "max_delay": 1,
+      "source_user_id": 2
+    },
+    {
+      "task_id": 12,
+      "workload": 700000000,
+      "memory_required": 2048,
+      "data_size": 2,
+      "max_delay": 8,
+      "source_user_id": 12
+    },
+    {
+      "task_id": 13,
+      "workload": 1200000000,
+      "memory_required": 4096,
+      "data_size": 3,
+      "max_delay": 10,
+      "source_user_id": 22
+    },
+    {
+      "task_id": 14,
+      "workload": 350000000,
+      "memory_required": 1024,
+      "data_size": 1,
+      "max_delay": 6,
+      "source_user_id": 32
+    },
+    {
+      "task_id": 15,
+      "workload": 900000000,
+      "memory_required": 3072,
+      "data_size": 4,
+      "max_delay": 11,
+      "source_user_id": 42
+    },
+    {
+      "task_id": 16,
+      "workload": 500000000,
+      "memory_required": 2048,
+      "data_size": 2,
+      "max_delay": 7,
+      "source_user_id": 52
+    },
+    {
+      "task_id": 17,
+      "workload": 1100000000,
+      "memory_required": 4096,
+      "data_size": 4,
+      "max_delay": 12,
+      "source_user_id": 62
+    },
+    {
+      "task_id": 18,
+      "workload": 450000000,
+      "memory_required": 1024,
+      "data_size": 1,
+      "max_delay": 6,
+      "source_user_id": 72
+    },
+    {
+      "task_id": 19,
+      "workload": 1500000000,
+      "memory_required": 6144,
+      "data_size": 5,
+      "max_delay": 14,
+      "source_user_id": 82
+    },
+    {
+      "task_id": 20,
+      "workload": 650000000,
+      "memory_required": 2048,
+      "data_size": 2,
+      "max_delay": 9,
+      "source_user_id": 92
+    }
+  ],
+  "pending_edge_tasks": 0,
+  "pending_source_tasks": 0
+}

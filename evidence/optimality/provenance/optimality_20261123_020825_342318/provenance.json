@@ -1,0 +1,38 @@
+{
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "executable": "C:\\Users\\HUAWEI\\Documents\\Project_2026\\MEC_offloading_Project\\.venv\\Scripts\\python.exe",
+  "experiment": "optimality",
+  "networks": [
+    "C200"
+  ],
+  "smoke_only": false,
+  "files": {
+    "baselines.py": "36828d81944ba4d72a415ab1086587d1f0e2b1c4875a9ca660f913497d8021b8",
+    "baselines_direct.py": "cdd856e2b8f6e02e88a5679c76353b9f6fa6efe787c4dc0c5424552a396e0f07",
+    "build_c200_dataset.py": "4ae60b06496250a8f224ccdf62d054af3e8dcf742df137ae4e7caa0f142bcb99",
+    "candidate_checking.py": "e6d17abf030497a847d49336e5da1d9cdaf9be906eeb4b9c48892856c1fe0925",
+    "dgwo.py": "069fc5e876382cfcd6b8630bb3ffdabb7e4c91aabe3e1fefec84bb96b461e69a",
+    "energy_model.py": "f59f247c889940eacad9e3136d155285b558ad85348ef40c625e644443b0db08",
+    "filtering.py": "9f1f10d8f14680ce0765c9619773848a05db19ee43cc62f65995e3c2f6ba5f9f",
+    "fitness.py": "03de626511a98e97017f12d35fddc91b3149610424142b9ef0d18b06c5517526",
+    "main_ablation_local_first.py": "820da24b96216de5bd9be86ddc1c4f52c2260c3194fb79f67e0686d5ec4c4afa",
+    "main_direct_baselines.py": "39b94768d51c19144d17eabce074bf1c871ce8f0d62efd8951982c20f6b852c6",
+    "main_final_local_first.py": "97153e30ae4ac8f9f3077951a5dec41d212b8e9c3ef5348cc8548e57c5da25fe",
+    "main_optimality_verification_5iter.py": "e48f29989aca333b8f109f11f5c734f1e572cd35416df74b97d83a5f6e2faeb5",
+    "main_workload_scalability_5iter.py": "42ec1e1294a49661bf4baa1bb1616eea156dae21d9782bbeca2e7ca50048d73b",
+    "network_resources.py": "5a294dd9aab68f298b5a2f05fbebfe038de175ff8fcc194ea02e5bda76fb6893",
+    "offloading.py": "17e3677889df8f9eff8d2eb06137ca3b7c7f00768faff857dc568f26f9c6f77e",
+    "resource_table.py": "770be3448965916d360330acc668b5abdee714f757b0da6bd85a057807d90899",
+    "run_c200_experiments.py": "3054f4f183d0bc8a251a997beee5642de74161a870b62458020d0fe25b5de2ed",
+    "run_direct_comparison.py": "b9ab039d2d806b200178da4738f1938e5ebc153b046b894513474177ff01813a",
+    "run_project_experiments.py": "d476e63f32991ecde68df34ab4306dc3dee8c38981ac983662ca818c7b8a71e0",
+    "task.py": "1c669c38bafdb04bc709d9691ac11b36d0df1ab52ed834772b8c1ab37d78f72d",
+    "timing_model.py": "62f85ba30666187e747b8bd7b0667590f1a1d9a86c5690e5741c4e53608a5339",
+    "validate_c200_dataset.py": "cb5439b5c31338d5c53233be2a494f019208e80d1d65618581aca7b114f1238d",
+    "C10.json": "ffd058149ced394e29cde88fad7047f5ca7f14c1130848b375fe7467e5445267",
+    "C100.json": "0ead833fddec9c2523538e322f279559f31b8ab26bebf8cb60f1f1c98aa3c872",
+    "C20.json": "2b80a363707f0fe880b9ece35c6a7ec29923e76150a22941b706df36775af123",
+    "C200.json": "bd4ca3b12f65bd22af81838c11ff39d5498d815438a2a8a2afcc56d424c62235",
+    "C50.json": "2ec4decb9ba6c0fed9035551dd3a0f4b40b2fc381643e02ef8b8b0815ba0c013"
+  }
+}

@@ -1,0 +1,19 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Fresh runs; archived report evidence under evidence/ is deliberately tracked.
+generated_results/
+results/
+trial_results/
+logs/
+Arrival_Trial/outputs/
+*.zip
+*_log.txt
+c200_runtime_validation.json

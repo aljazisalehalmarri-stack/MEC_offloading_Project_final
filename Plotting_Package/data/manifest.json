@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "comparison": 240,
+    "robustness": 200,
+    "filtering": 40,
+    "parameters": 54,
+    "weights": 50,
+    "workload": 20,
+    "optimality": 20,
+    "arrival": 60
+  },
+  "runs": 684,
+  "task_submissions": 15130,
+  "source_manifest": "evidence/manifest.json"
+}

@@ -1,0 +1,19 @@
+#First:create virtual enviroment
+# py -3.11 -m venv .venv
+# .\.venv\Scripts\Activate.ps1
+#Then install the requirements
+# python -m pip install -r requirements.txt
+
+
+
+
+# Python 3.11.9
+# EdgeSimPy 1.1.0: exact commit recorded in the original working environment.
+edge_sim_py @ https://github.com/EdgeSimPy/EdgeSimPy/archive/76eb5ead74596bb4240759fa4336f1d6f190c70a.zip
+Mesa==1.2.1
+networkx==3.4.2
+msgpack==1.2.4
+setuptools==65.5.0
+numpy==2.4.6
+pandas==3.1.1
+matplotlib==3.11.2

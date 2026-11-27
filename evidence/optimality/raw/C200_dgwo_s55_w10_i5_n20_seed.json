@@ -1,0 +1,1440 @@
+{
+  "method": "dgwo",
+  "seed": 55,
+  "wolves": 10,
+  "iterations": 5,
+  "weights": [
+    0.4,
+    0.4,
+    0.2
+  ],
+  "tasks": [
+    {
+      "task_id": 1,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 91,
+      "analytical_delay_s": 0.8533333333333334,
+      "observed_delay_s": 2.0,
+      "computation_energy_j": 0.036,
+      "transmission_energy_j": 0.32,
+      "source_energy_j": 0.32,
+      "total_system_energy_j": 0.356,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 10
+      }
+    },
+    {
+      "task_id": 2,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 18,
+      "analytical_delay_s": 3.7316666666666665,
+      "observed_delay_s": 5.0,
+      "computation_energy_j": 0.2016,
+      "transmission_energy_j": 1.28,
+      "source_energy_j": 1.28,
+      "total_system_energy_j": 1.4816,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 2
+      }
+    },
+    {
+      "task_id": 3,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 28,
+      "analytical_delay_s": 2.0083333333333333,
+      "observed_delay_s": 3.0,
+      "computation_energy_j": 0.0144,
+      "transmission_energy_j": 0.96,
+      "source_energy_j": 0.96,
+      "total_system_energy_j": 0.9743999999999999,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 3
+      }
+    },
+    {
+      "task_id": 4,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 38,
+      "analytical_delay_s": 2.466666666666667,
+      "observed_delay_s": 3.0,
+      "computation_energy_j": 0.0936,
+      "transmission_energy_j": 0.96,
+      "source_energy_j": 0.96,
+      "total_system_energy_j": 1.0535999999999999,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 4
+      }
+    },
+    {
+      "task_id": 5,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 48,
+      "analytical_delay_s": 4.595,
+      "observed_delay_s": 5.0,
+      "computation_energy_j": 0.1296,
+      "transmission_energy_j": 1.92,
+      "source_energy_j": 1.92,
+      "total_system_energy_j": 2.0496,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 5
+      }
+    },
+    {
+      "task_id": 6,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 53,
+      "analytical_delay_s": 1.5662500000000001,
+      "observed_delay_s": 3.0,
+      "computation_energy_j": 0.1152,
+      "transmission_energy_j": 0.64,
+      "source_energy_j": 0.64,
+      "total_system_energy_j": 0.7552,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 6
+      }
+    },
+    {
+      "task_id": 7,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 61,
+      "analytical_delay_s": 4.538333333333333,
+      "observed_delay_s": 6.0,
+      "computation_energy_j": 0.2304,
+      "transmission_energy_j": 1.6,
+      "source_energy_j": 1.6,
+      "total_system_energy_j": 1.8304,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 7
+      }
+    },
+    {
+      "task_id": 8,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 71,
+      "analytical_delay_s": 0.895,
+      "observed_delay_s": 2.0,
+      "computation_energy_j": 0.043199999999999995,
+      "transmission_energy_j": 0.32,
+      "source_energy_j": 0.32,
+      "total_system_energy_j": 0.3632,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 8
+      }
+    },
+    {
+      "task_id": 9,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 88,
+      "analytical_delay_s": 2.55,
+      "observed_delay_s": 3.0,
+      "computation_energy_j": 0.108,
+      "transmission_energy_j": 0.96,
+      "source_energy_j": 0.96,
+      "total_system_energy_j": 1.068,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 9
+      }
+    },
+    {
+      "task_id": 10,
+      "status": "COMPLETED",
+      "scope": "GLOBAL",
+      "server": 13,
+      "analytical_delay_s": 1.70125,
+      "observed_delay_s": 3.0,
+      "computation_energy_j": 0.16640000000000002,
+      "transmission_energy_j": 0.64,
+      "source_energy_j": 0.64,
+      "total_system_energy_j": 0.8064,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 1
+      }
+    },
+    {
+      "task_id": 11,
+      "status": "COMPLETED_LOCALLY",
+      "scope": null,
+      "server": null,
+      "analytical_delay_s": 0.4,
+      "observed_delay_s": 1.0,
+      "computation_energy_j": 0.005,
+      "transmission_energy_j": 0.0,
+      "source_energy_j": 0.005,
+      "total_system_energy_j": 0.005,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_processing_rate_cycles_s": 500000000.0,
+        "source_memory_assumption_mb": 2048.0,
+        "source_reserved_cpu_units": 1,
+        "source_reserved_memory_mb": 1024.0,
+        "source_cpu_demand_before": 0.0,
+        "source_cpu_demand_after_reservation": 1.0,
+        "source_memory_demand_before_mb": 0.0,
+        "source_memory_demand_after_reservation_mb": 1024.0,
+        "source_energy_before_j": 1000.0,
+        "source_energy_after_reservation_j": 999.995,
+        "source_resources_released": true,
+        "source_resource_release_step": 33,
+        "source_cpu_demand_after_release": 0.0,
+        "source_memory_demand_after_release_mb": 0.0,
+        "source_energy_at_completion_j": 999.995
+      }
+    },
+    {
+      "task_id": 12,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 118,
+      "analytical_delay_s": 1.8683333333333334,
+      "observed_delay_s": 3.0,
+      "computation_energy_j": 0.1008,
+      "transmission_energy_j": 0.64,
+      "source_energy_j": 0.64,
+      "total_system_energy_j": 0.7408,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 12
+      }
+    },
+    {
+      "task_id": 13,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 121,
+      "analytical_delay_s": 2.925,
+      "observed_delay_s": 4.0,
+      "computation_energy_j": 0.17279999999999998,
+      "transmission_energy_j": 0.96,
+      "source_energy_j": 0.96,
+      "total_system_energy_j": 1.1328,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 13
+      }
+    },
+    {
+      "task_id": 14,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 138,
+      "analytical_delay_s": 0.9366666666666668,
+      "observed_delay_s": 2.0,
+      "computation_energy_j": 0.0504,
+      "transmission_energy_j": 0.32,
+      "source_energy_j": 0.32,
+      "total_system_energy_j": 0.3704,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 14
+      }
+    },
+    {
+      "task_id": 15,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 141,
+      "analytical_delay_s": 3.315,
+      "observed_delay_s": 4.0,
+      "computation_energy_j": 0.1296,
+      "transmission_energy_j": 1.28,
+      "source_energy_j": 1.28,
+      "total_system_energy_j": 1.4096,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 15
+      }
+    },
+    {
+      "task_id": 16,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 151,
+      "analytical_delay_s": 1.7016666666666667,
+      "observed_delay_s": 3.0,
+      "computation_energy_j": 0.072,
+      "transmission_energy_j": 0.64,
+      "source_energy_j": 0.64,
+      "total_system_energy_j": 0.712,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 16
+      }
+    },
+    {
+      "task_id": 17,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 168,
+      "analytical_delay_s": 3.4816666666666665,
+      "observed_delay_s": 4.0,
+      "computation_energy_j": 0.15839999999999999,
+      "transmission_energy_j": 1.28,
+      "source_energy_j": 1.28,
+      "total_system_energy_j": 1.4384000000000001,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 17
+      }
+    },
+    {
+      "task_id": 18,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 178,
+      "analytical_delay_s": 1.02,
+      "observed_delay_s": 2.0,
+      "computation_energy_j": 0.0648,
+      "transmission_energy_j": 0.32,
+      "source_energy_j": 0.32,
+      "total_system_energy_j": 0.38480000000000003,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 18
+      }
+    },
+    {
+      "task_id": 19,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 181,
+      "analytical_delay_s": 4.455,
+      "observed_delay_s": 6.0,
+      "computation_energy_j": 0.216,
+      "transmission_energy_j": 1.6,
+      "source_energy_j": 1.6,
+      "total_system_energy_j": 1.816,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 19
+      }
+    },
+    {
+      "task_id": 20,
+      "status": "COMPLETED",
+      "scope": "LOCAL",
+      "server": 198,
+      "analytical_delay_s": 1.8266666666666667,
+      "observed_delay_s": 3.0,
+      "computation_energy_j": 0.0936,
+      "transmission_energy_j": 0.64,
+      "source_energy_j": 0.64,
+      "total_system_energy_j": 0.7336,
+      "deadline_met": true,
+      "rejection_reason": null,
+      "source_resource_audit": {
+        "source_cluster_id": 20
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "decision_ms": 0.7924000383354723,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 10,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 1.5124999918043613,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 10,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 0.7029999978840351,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 9,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 0.5763000226579607,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 10,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 0.5650999955832958,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 10,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 0.34139998024329543,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 4,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 0.5258999881334603,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 8,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 1.145699992775917,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 9,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 0.7453999714925885,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 9,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 0.5992999649606645,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 9,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 0.6209999555721879,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 10,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 0.754999986384064,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 10,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 0.6752000190317631,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 10,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 0.6240999791771173,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 10,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 0.6243000389076769,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 9,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 0.6145999650470912,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 8,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 0.5355000030249357,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 8,
+      "fitness_gap": null
+    },
+    {
+      "decision_ms": 0.660100020468235,
+      "fitness_evaluations": 50,
+      "unique_fitness_evaluations": 10,
+      "fitness_gap": null
+    }
+  ],
+  "full_decisions": [
+    {
+      "task_id": 1,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 10,
+      "candidates_after_checking": 10,
+      "preselection_ms": 1.318999973591417,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.7962999516166747,
+      "final_verification_ms": 0.05630002124235034,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 2.171599946450442
+    },
+    {
+      "task_id": 2,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 10,
+      "candidates_after_checking": 10,
+      "preselection_ms": 1.747500034980476,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 1.5218999469652772,
+      "final_verification_ms": 0.05329999839887023,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 3.3226999803446233
+    },
+    {
+      "task_id": 3,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 10,
+      "candidates_after_checking": 10,
+      "preselection_ms": 1.9054000149480999,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.7082999800331891,
+      "final_verification_ms": 0.06550003308802843,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 2.6792000280693173
+    },
+    {
+      "task_id": 4,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 10,
+      "candidates_after_checking": 10,
+      "preselection_ms": 1.1979000410065055,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.5800999933853745,
+      "final_verification_ms": 0.05460000829771161,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 1.8326000426895916
+    },
+    {
+      "task_id": 5,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 10,
+      "candidates_after_checking": 10,
+      "preselection_ms": 0.867400027345866,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.56900002527982,
+      "final_verification_ms": 0.05609996151179075,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 1.4925000141374767
+    },
+    {
+      "task_id": 6,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 4,
+      "candidates_after_checking": 4,
+      "preselection_ms": 1.063500007148832,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.3457000129856169,
+      "final_verification_ms": 0.06699998630210757,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 1.4762000064365566
+    },
+    {
+      "task_id": 7,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 8,
+      "candidates_after_checking": 8,
+      "preselection_ms": 1.0634999489411712,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.5298000178299844,
+      "final_verification_ms": 0.05360000068321824,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 1.6468999674543738
+    },
+    {
+      "task_id": 8,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 10,
+      "candidates_after_checking": 10,
+      "preselection_ms": 1.8371999613009393,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 1.1560000129975379,
+      "final_verification_ms": 0.06220000796020031,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 3.0553999822586775
+    },
+    {
+      "task_id": 9,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 10,
+      "candidates_after_checking": 10,
+      "preselection_ms": 0.9681000374257565,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.7486999966204166,
+      "final_verification_ms": 0.06830005440860987,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 1.785100088454783
+    },
+    {
+      "task_id": 10,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 1,
+      "candidates_after_checking": 1,
+      "preselection_ms": 37.43869997560978,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.000900006853044033,
+      "final_verification_ms": 0.09139999747276306,
+      "search_stages": [
+        "LOCAL",
+        "GLOBAL"
+      ],
+      "global_expansion_used": true,
+      "total_decision_ms": 37.53099997993559
+    },
+    {
+      "task_id": 11,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 0,
+      "candidates_after_checking": 0,
+      "preselection_ms": 39.44660001434386,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.0,
+      "final_verification_ms": 0.0,
+      "search_stages": [
+        "LOCAL",
+        "GLOBAL"
+      ],
+      "global_expansion_used": true,
+      "total_decision_ms": 39.44660001434386
+    },
+    {
+      "task_id": 12,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 10,
+      "candidates_after_checking": 10,
+      "preselection_ms": 0.9162999922409654,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.6031999946571887,
+      "final_verification_ms": 0.061400001868605614,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 1.5808999887667596
+    },
+    {
+      "task_id": 13,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 10,
+      "candidates_after_checking": 10,
+      "preselection_ms": 1.257800031453371,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.6238999776542187,
+      "final_verification_ms": 0.05589995998889208,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 1.9375999690964818
+    },
+    {
+      "task_id": 14,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 10,
+      "candidates_after_checking": 10,
+      "preselection_ms": 1.416300015989691,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.7593000191263855,
+      "final_verification_ms": 0.06049999501556158,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 2.236100030131638
+    },
+    {
+      "task_id": 15,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 10,
+      "candidates_after_checking": 10,
+      "preselection_ms": 1.4874999760650098,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.6774999783374369,
+      "final_verification_ms": 0.05920004332438111,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 2.224199997726828
+    },
+    {
+      "task_id": 16,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 10,
+      "candidates_after_checking": 10,
+      "preselection_ms": 1.3441999908536673,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.6271000020205975,
+      "final_verification_ms": 0.06210000719875097,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 2.0334000000730157
+    },
+    {
+      "task_id": 17,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 10,
+      "candidates_after_checking": 10,
+      "preselection_ms": 1.0446999804116786,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.6276000058278441,
+      "final_verification_ms": 0.06320001557469368,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 1.7355000018142164
+    },
+    {
+      "task_id": 18,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 10,
+      "candidates_after_checking": 10,
+      "preselection_ms": 1.0133000323548913,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.6176999886520207,
+      "final_verification_ms": 0.06619998021051288,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 1.6972000012174249
+    },
+    {
+      "task_id": 19,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 8,
+      "candidates_after_checking": 8,
+      "preselection_ms": 1.0443999781273305,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.5384999676607549,
+      "final_verification_ms": 0.0619000056758523,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 1.6447999514639378
+    },
+    {
+      "task_id": 20,
+      "method": "dgwo",
+      "edge_nodes_before": 200,
+      "candidates_after_preselection": 10,
+      "candidates_after_checking": 10,
+      "preselection_ms": 1.0769999935291708,
+      "preselection_revalidation_ms": 0.0,
+      "selection_ms": 0.6635999889113009,
+      "final_verification_ms": 0.06400002166628838,
+      "search_stages": [
+        "LOCAL"
+      ],
+      "global_expansion_used": false,
+      "total_decision_ms": 1.80460000410676
+    }
+  ],
+  "task_count": 20,
+  "processed": 20,
+  "max_simulation_steps": 202,
+  "simulation_steps": 56,
+  "all_tasks_arrived": true,
+  "pending_edge_tasks": 0,
+  "pending_source_tasks": 0,
+  "arrival_seed": 55,
+  "arrival_trace": [
+    {
+      "task_id": 1,
+      "arrival_step": 1
+    },
+    {
+      "task_id": 2,
+      "arrival_step": 3
+    },
+    {
+      "task_id": 3,
+      "arrival_step": 7
+    },
+    {
+      "task_id": 4,
+      "arrival_step": 8
+    },
+    {
+      "task_id": 5,
+      "arrival_step": 13
+    },
+    {
+      "task_id": 6,
+      "arrival_step": 20
+    },
+    {
+      "task_id": 7,
+      "arrival_step": 21
+    },
+    {
+      "task_id": 8,
+      "arrival_step": 25
+    },
+    {
+      "task_id": 9,
+      "arrival_step": 26
+    },
+    {
+      "task_id": 10,
+      "arrival_step": 29
+    },
+    {
+      "task_id": 11,
+      "arrival_step": 32
+    },
+    {
+      "task_id": 12,
+      "arrival_step": 34
+    },
+    {
+      "task_id": 13,
+      "arrival_step": 36
+    },
+    {
+      "task_id": 14,
+      "arrival_step": 37
+    },
+    {
+      "task_id": 15,
+      "arrival_step": 38
+    },
+    {
+      "task_id": 16,
+      "arrival_step": 41
+    },
+    {
+      "task_id": 17,
+      "arrival_step": 44
+    },
+    {
+      "task_id": 18,
+      "arrival_step": 45
+    },
+    {
+      "task_id": 19,
+      "arrival_step": 50
+    },
+    {
+      "task_id": 20,
+      "arrival_step": 53
+    }
+  ],
+  "optimality_records": [
+    {
+      "task_id": 1,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 10,
+      "candidate_ids": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "dgwo_or_direct_choice_id": 91,
+      "oracle_best_candidate_ids": [
+        91,
+        98
+      ],
+      "oracle_best_fitness": 0.1068888888888889,
+      "selected_fitness": 0.1068888888888889,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 10,
+      "oracle_time_ms": 0.47120003728196025
+    },
+    {
+      "task_id": 2,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 10,
+      "candidate_ids": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "dgwo_or_direct_choice_id": 18,
+      "oracle_best_candidate_ids": [
+        11,
+        18
+      ],
+      "oracle_best_fitness": 0.21585185185185185,
+      "selected_fitness": 0.21585185185185185,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 10,
+      "oracle_time_ms": 0.8431000169366598
+    },
+    {
+      "task_id": 3,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 10,
+      "candidate_ids": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "dgwo_or_direct_choice_id": 28,
+      "oracle_best_candidate_ids": [
+        21,
+        28
+      ],
+      "oracle_best_fitness": 0.21066666666666667,
+      "selected_fitness": 0.21066666666666667,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 10,
+      "oracle_time_ms": 0.5035999929532409
+    },
+    {
+      "task_id": 4,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 10,
+      "candidate_ids": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "dgwo_or_direct_choice_id": 38,
+      "oracle_best_candidate_ids": [
+        31,
+        38
+      ],
+      "oracle_best_fitness": 0.15962962962962962,
+      "selected_fitness": 0.15962962962962962,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 10,
+      "oracle_time_ms": 0.4143999540247023
+    },
+    {
+      "task_id": 5,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 10,
+      "candidate_ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "dgwo_or_direct_choice_id": 48,
+      "oracle_best_candidate_ids": [
+        41,
+        48
+      ],
+      "oracle_best_fitness": 0.20316666666666666,
+      "selected_fitness": 0.20316666666666666,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 10,
+      "oracle_time_ms": 0.43159996857866645
+    },
+    {
+      "task_id": 6,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 4,
+      "candidate_ids": [
+        53,
+        55,
+        57,
+        60
+      ],
+      "dgwo_or_direct_choice_id": 53,
+      "oracle_best_candidate_ids": [
+        53
+      ],
+      "oracle_best_fitness": 0.04588333333333333,
+      "selected_fitness": 0.04588333333333333,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 4,
+      "oracle_time_ms": 0.23340003099292517
+    },
+    {
+      "task_id": 7,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 8,
+      "candidate_ids": [
+        61,
+        62,
+        63,
+        65,
+        66,
+        67,
+        69,
+        70
+      ],
+      "dgwo_or_direct_choice_id": 61,
+      "oracle_best_candidate_ids": [
+        61
+      ],
+      "oracle_best_fitness": 0.20127777777777778,
+      "selected_fitness": 0.20127777777777778,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 8,
+      "oracle_time_ms": 0.37570000858977437
+    },
+    {
+      "task_id": 8,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 10,
+      "candidate_ids": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "dgwo_or_direct_choice_id": 71,
+      "oracle_best_candidate_ids": [
+        71,
+        78
+      ],
+      "oracle_best_fitness": 0.1216,
+      "selected_fitness": 0.1216,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 10,
+      "oracle_time_ms": 0.7728000055067241
+    },
+    {
+      "task_id": 9,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 10,
+      "candidate_ids": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "dgwo_or_direct_choice_id": 88,
+      "oracle_best_candidate_ids": [
+        81,
+        88
+      ],
+      "oracle_best_fitness": 0.16333333333333333,
+      "selected_fitness": 0.16333333333333333,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 10,
+      "oracle_time_ms": 0.7834999705664814
+    },
+    {
+      "task_id": 10,
+      "search_stage": "GLOBAL",
+      "selection_mode": "DIRECT",
+      "candidate_count": 1,
+      "candidate_ids": [
+        13
+      ],
+      "dgwo_or_direct_choice_id": 13,
+      "oracle_best_candidate_ids": [
+        13
+      ],
+      "oracle_best_fitness": 0.06753125,
+      "selected_fitness": 0.06753125,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 1,
+      "oracle_time_ms": 0.10600005043670535
+    },
+    {
+      "task_id": 12,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 10,
+      "candidate_ids": [
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "dgwo_or_direct_choice_id": 118,
+      "oracle_best_candidate_ids": [
+        111,
+        118
+      ],
+      "oracle_best_fitness": 0.14341666666666666,
+      "selected_fitness": 0.14341666666666666,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 10,
+      "oracle_time_ms": 0.47880003694444895
+    },
+    {
+      "task_id": 13,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 10,
+      "candidate_ids": [
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "dgwo_or_direct_choice_id": 121,
+      "oracle_best_candidate_ids": [
+        121,
+        128
+      ],
+      "oracle_best_fitness": 0.16699999999999998,
+      "selected_fitness": 0.16699999999999998,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 10,
+      "oracle_time_ms": 0.48180000158026814
+    },
+    {
+      "task_id": 14,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 10,
+      "candidate_ids": [
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
+      ],
+      "dgwo_or_direct_choice_id": 138,
+      "oracle_best_candidate_ids": [
+        131,
+        138
+      ],
+      "oracle_best_fitness": 0.11244444444444446,
+      "selected_fitness": 0.11244444444444446,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 10,
+      "oracle_time_ms": 0.6178999901749194
+    },
+    {
+      "task_id": 15,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 10,
+      "candidate_ids": [
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150
+      ],
+      "dgwo_or_direct_choice_id": 141,
+      "oracle_best_candidate_ids": [
+        141,
+        148
+      ],
+      "oracle_best_fitness": 0.17054545454545456,
+      "selected_fitness": 0.17054545454545456,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 10,
+      "oracle_time_ms": 0.5230000242590904
+    },
+    {
+      "task_id": 16,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 10,
+      "candidate_ids": [
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160
+      ],
+      "dgwo_or_direct_choice_id": 151,
+      "oracle_best_candidate_ids": [
+        151,
+        158
+      ],
+      "oracle_best_fitness": 0.14723809523809522,
+      "selected_fitness": 0.14723809523809522,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 10,
+      "oracle_time_ms": 0.514300016220659
+    },
+    {
+      "task_id": 17,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 10,
+      "candidate_ids": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170
+      ],
+      "dgwo_or_direct_choice_id": 168,
+      "oracle_best_candidate_ids": [
+        161,
+        168
+      ],
+      "oracle_best_fitness": 0.16605555555555557,
+      "selected_fitness": 0.16605555555555557,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 10,
+      "oracle_time_ms": 0.5049000028520823
+    },
+    {
+      "task_id": 18,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 10,
+      "candidate_ids": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180
+      ],
+      "dgwo_or_direct_choice_id": 178,
+      "oracle_best_candidate_ids": [
+        171,
+        178
+      ],
+      "oracle_best_fitness": 0.11800000000000001,
+      "selected_fitness": 0.11800000000000001,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 10,
+      "oracle_time_ms": 0.5296000163070858
+    },
+    {
+      "task_id": 19,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 8,
+      "candidate_ids": [
+        181,
+        182,
+        183,
+        185,
+        186,
+        187,
+        189,
+        190
+      ],
+      "dgwo_or_direct_choice_id": 181,
+      "oracle_best_candidate_ids": [
+        181
+      ],
+      "oracle_best_fitness": 0.17728571428571432,
+      "selected_fitness": 0.17728571428571432,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 8,
+      "oracle_time_ms": 0.4759999574162066
+    },
+    {
+      "task_id": 20,
+      "search_stage": "LOCAL",
+      "selection_mode": "DGWO",
+      "candidate_count": 10,
+      "candidate_ids": [
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "dgwo_or_direct_choice_id": 198,
+      "oracle_best_candidate_ids": [
+        191,
+        198
+      ],
+      "oracle_best_fitness": 0.13118518518518518,
+      "selected_fitness": 0.13118518518518518,
+      "absolute_fitness_gap": 0.0,
+      "relative_gap_percent": 0.0,
+      "optimal_match": true,
+      "oracle_evaluations": 10,
+      "oracle_time_ms": 0.5040999967604876
+    }
+  ]
+}

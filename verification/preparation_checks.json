@@ -1,0 +1,15 @@
+{
+  "platform": "Linux preparation environment; timing is not report evidence",
+  "syntax": "PASS",
+  "structure_and_runtime": {
+    "passed": 7436,
+    "failed": 0
+  },
+  "smoke_runs": 24,
+  "paired_arrival_and_task_outcome_regression": "PASS",
+  "archived_report_runs": 684,
+  "archived_task_submissions": 15130,
+  "optimality_records": 380,
+  "optimality_matches": 379,
+  "plot_generation": "PASS; 13 figures, three formats"
+}
